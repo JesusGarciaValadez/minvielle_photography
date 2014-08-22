@@ -1,0 +1,17 @@
+/setup/
+/manager/
+/core/
+/connectors/
+/index.php
+/config.core.php
+
+/assets/components
+
+/bower_components/
+
+/Code/templates/sass/.sass-cache
+
+/Code/templates/javascript/vendor/jquery.magnific-popup.min.js
+/Code/templates/javascript/vendor/jquery.tools.custom.min.js
+/Code/templates/javascript/vendor/jquery.tools.min.js
+/Code/templates/javascript/vendor/jquery.magnific-popup.js
