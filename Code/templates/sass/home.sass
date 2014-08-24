@@ -1,0 +1,126 @@
+html,body
+    background-color: $site-background
+    display: table
+    height: 100%
+    width: 100%
+.wrapper
+    
+.central
+    display: block
+    margin: 0 auto
+    width: 960px
+figure
+    img
+        border: 1px solid $image-border
+.home
+    header
+        clear: right
+        height: 77px
+        h1
+            display: inline-block
+            float: left
+            height: 100%
+            text-indent: -2000em
+        nav
+            clear: right
+            display: inline-block
+            float: right
+            ul
+                margin: 28px auto 0
+                li
+                    border-right: 1px solid $text-normal
+                    box-sizing: border-box
+                    float: left
+                    padding: 0 20px
+                    &:first-child
+                        padding: 0 20px 0 0
+                    &:last-child
+                        border-right: 0 none transparent
+                        padding: 0 0 0 20px
+                    a
+                        @include font-mask( normal, em( 13, 16 ), em( 15, 13 ), $font, $text-normal )
+                        text-align: center
+                        text-decoration: none
+                        text-transform: uppercase
+                        &:hover,&.active
+                            color: $text-active
+    main
+        .scrollable_main_photography
+            box-sizing: border-box
+            margin: 0 auto 32px
+            overflow: hidden
+            position: relative
+            width: 960px
+            .items_glympse
+                display: block
+                height: 100%
+                position: relative
+                width: 2000em
+                figure
+                    float: left
+                    position: relative
+                    width: 960px
+                    img
+        .wrapper_categories
+            box-sizing: border-box
+            margin: 0 auto
+            position: relative
+            width: 100%
+            a
+            .browser
+                color: transparent
+                display: inline-block
+                height: 85px
+                margin: 0
+                position: absolute
+                width: 26px
+            .prev
+                left: 0
+            .next
+                right: 0
+            .scrollable_categories
+                box-sizing: border-box
+                margin: 0 auto
+                overflow: hidden
+                position: relative
+                width: 851px
+                .items_categories
+                    display: block
+                    height: 100%
+                    position: relative
+                    width: 2000em
+                    figure
+                        float: left
+                        height: 85px
+                        margin: 0 7.5px
+                        width: 129px
+                        &:first-child
+                            margin: 0 7.5px 0 0
+                        &:last-child
+                            margin: 0 0 0 7.5px
+                        &:hover
+                            figcaption
+                                display: block
+                        img
+                        figcaption
+                            background-color: $figcaption-background
+                            display: none
+                            bottom: 29px
+                            height: 24px
+                            left: 1px
+                            position: relative
+                            width: 100%
+                            p
+                                @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
+                                margin: 0
+                                text-indent: 4px
+                                text-transform: uppercase
+    footer
+        box-sizing: border-box
+        clear: both
+        height: 37px
+        padding: 16px 0 8px
+        p
+            @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
+            text-align: left
+            text-transform: capitalize
