@@ -75,7 +75,12 @@
                 items: '.items_categories',
                 next: '.next',
                 prev: '.prev'
-            }, {}, {} );
+            }, {}, {
+                steps: 1,
+                interval: 5000,
+                autoplay: false,
+                autopause: false
+            } );
         }
     } );
 } ) ( jQuery, window, document );

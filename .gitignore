@@ -1,14 +1,13 @@
-#/setup/
-#/manager/
-#/core/
-#/connectors/
-#/index.php
-#/config.core.php
+/setup_/
+/setup/
+/manager/
+/core/
+/connectors/
+/index.php
+/config.core.php
 
-#/assets/components
+/assets/components/
 
 /bower_components/
 
 /Code/templates/sass/.sass-cache
-
-#/setup_
