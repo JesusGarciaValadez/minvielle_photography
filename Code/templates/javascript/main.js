@@ -43,6 +43,39 @@
     //  When page is finished loaded
     $( 'document' ).ready( function ( e ) {
 
-        
+        // Inicialización de carrusel de imágenes
+        if ( $( '.scrollable_main_photography' ).exists() ) {
+            console.log('hi');
+            MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
+                speed: 300,
+                circular: true,
+                keyboard: false,
+                items: '.items_glympse',
+                next: '',
+                prev: ''
+            }, {
+                activeClass: "active",
+                navi: ".navigation",
+                naviItem: "a",
+                indexed: false
+            }, {
+                steps: 1,
+                interval: 5000,
+                autoplay: true,
+                autopause: false
+            } );
+        }
+
+        // Inicialización de carrusel de imágenes
+        if ( $( '.scrollable_categories' ).exists() ) {
+            MDMinvielle.inicializeCarrousel( '.scrollable_categories', {
+                speed: 300,
+                circular: false,
+                keyboard: false,
+                items: '.items_categories',
+                next: '.next',
+                prev: '.prev'
+            }, {}, {} );
+        }
     } );
 } ) ( jQuery, window, document );

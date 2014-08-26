@@ -17,9 +17,11 @@ figure
         clear: right
         height: 77px
         h1
+            @extend .mariano-dominguez-minvielle-logo
             display: inline-block
             float: left
             height: 100%
+            margin: 0
             text-indent: -2000em
         nav
             clear: right
@@ -38,7 +40,7 @@ figure
                         border-right: 0 none transparent
                         padding: 0 0 0 20px
                     a
-                        @include font-mask( normal, em( 13, 16 ), em( 15, 13 ), $font, $text-normal )
+                        @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
                         text-align: center
                         text-decoration: none
                         text-transform: uppercase
@@ -61,6 +63,30 @@ figure
                     position: relative
                     width: 960px
                     img
+            .watermark
+                @extend .marca-de-agua-md-minvielle
+                bottom: 0
+                position: absolute
+                right: 0
+                z-index: 5
+            .navigation
+                bottom: 20px
+                display: inline-block
+                left: 50%
+                margin: 0 0 0 -2%
+                position: absolute
+                a
+                    background-color: transparent
+                    border: 1px solid $white-color
+                    border-radius: 50%
+                    float: left
+                    height: 10px
+                    margin: 0 5px 0 0
+                    width: 10px
+                    &:hover, &.active
+                        background-color: $text-active
+                    &:last-child
+                        margin: 0
         .wrapper_categories
             box-sizing: border-box
             margin: 0 auto
@@ -73,10 +99,13 @@ figure
                 height: 85px
                 margin: 0
                 position: absolute
+                top: 0
                 width: 26px
             .prev
+                @extend .flecha-izquierda
                 left: 0
             .next
+                @extend .flecha-derecha
                 right: 0
             .scrollable_categories
                 box-sizing: border-box

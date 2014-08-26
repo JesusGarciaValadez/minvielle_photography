@@ -1,11 +1,11 @@
-/setup/
-/manager/
-/core/
-/connectors/
-/index.php
-/config.core.php
+#/setup/
+#/manager/
+#/core/
+#/connectors/
+#/index.php
+#/config.core.php
 
-/assets/components
+#/assets/components
 
 /bower_components/
 
@@ -16,4 +16,4 @@
 /Code/templates/javascript/vendor/jquery.tools.min.js
 /Code/templates/javascript/vendor/jquery.magnific-popup.js
 
-/setup_
+#/setup_
