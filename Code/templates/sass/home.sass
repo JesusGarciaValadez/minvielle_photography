@@ -8,7 +8,8 @@ html,body
 .central
     display: block
     margin: 0 auto
-    width: 960px
+    max-width: 960px
+    width: 93.75%
 figure
     img
         border: 1px solid $image-border
@@ -49,10 +50,11 @@ figure
     main
         .scrollable_main_photography
             box-sizing: border-box
+            max-height: 446px
             margin: 0 auto 32px
             overflow: hidden
             position: relative
-            width: 960px
+            width: 100%
             .items_glympse
                 display: block
                 height: 100%
@@ -96,17 +98,17 @@ figure
             .browser
                 color: transparent
                 display: inline-block
-                height: 85px
                 margin: 0
                 position: absolute
                 top: 0
-                width: 26px
             .prev
                 @extend .flecha-izquierda
                 left: 0
             .next
                 @extend .flecha-derecha
                 right: 0
+            .disabled
+                display: none
             .scrollable_categories
                 box-sizing: border-box
                 margin: 0 auto

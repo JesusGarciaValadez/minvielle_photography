@@ -5,12 +5,12 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <title>[[++site_name]] - [[+pagetitle]]</title>
-        <meta charset="utf-8">
+        <meta charset="[[++modx_charset]]">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
+        <meta name="description" content="[[*description]]">
         <meta name="viewport" content="width=device-width, initial-scale=0">
         <meta name="robots" content="all" />
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="[[++site_url]][[~[[*id]]]]" />
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta http-equiv="cache-control" content="no-store" />
         <meta http-equiv="cache-control" content="max-age=0" />
@@ -30,48 +30,45 @@
     <body class="home">
         <div class="wrapper">
             <header class="central">
-                <h1>Mariano Dominguez Minvielle</h1>
+                <h1>[[++site_name]]</h1>
                 <nav>
                     <ul class="clearfix">
                         <li>
-                            <a href="" title="" target="_blank">Home</a>
+                            <a href="[[++site_start]]" title="Home" target="_blank">Home</a>
                         </li>
-                        <li>
-                            <a href="" title="" target="_blank">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="" title="" target="_blank">Blog</a>
-                        </li>
-                        <li>
-                            <a href="" title="" target="_blank">Mariano Dominguez Minvielle</a>
-                        </li>
-                        <li>
-                            <a href="" title="" target="_blank">Invited Artist</a>
-                        </li>
-                        <li>
-                            <a href="" title="" target="_blank">Contact</a>
-                        </li>
+[[!getResources? 
+    &parents=`19`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE menu-list-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
+
                     </ul>
                 </nav>
             </header>
             <main class="central">
                 <div class="scrollable_main_photography">
                     <div class="items_glympse clearfix">
-                        <figure>
-                            <img src="[[++site_url]]assets/img/carrousel/place-des-vosses.jpg" width="956" height="444" alt="Place des vosses" />
-                        </figure>
-                        <figure>
-                            <img src="[[++site_url]]assets/img/carrousel/place-des-vosses.jpg" width="956" height="444" alt="Place des vosses" />
-                        </figure>
-                        <figure>
-                            <img src="[[++site_url]]assets/img/carrousel/place-des-vosses.jpg" width="956" height="444" alt="Place des vosses" />
-                        </figure>
-                        <figure>
-                            <img src="[[++site_url]]assets/img/carrousel/place-des-vosses.jpg" width="956" height="444" alt="Place des vosses" />
-                        </figure>
-                        <figure>
-                            <img src="[[++site_url]]assets/img/carrousel/place-des-vosses.jpg" width="956" height="444" alt="Place des vosses" />
-                        </figure>
+[[!getResources? 
+    &parents=`15`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE carrusel-figure-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+ ]]
                     </div>
                     <div class="watermark"></div>
                     <div class="navigation clearfix"></div>
@@ -80,42 +77,20 @@
                     <a href="#" title="Anterior" class="prev browser">Anterior</a>
                     <div class="scrollable_categories">
                         <div class="items_categories clearfix">
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/abstract-photography.jpg" width="128" height="82" alt="Abstract Photography" />
-                                <figcaption>
-                                    <p>Abstract Photography</p>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/black-and-white.jpg" width="128" height="82" alt="Black & White" />
-                                <figcaption>
-                                    <p>Black &amp; White</p>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/nature.jpg" width="128" height="82" alt="Nature" />
-                                <figcaption>
-                                    <p>Nature</p>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/landscape.jpg" width="128" height="82" alt="Landscape" />
-                                <figcaption>
-                                    <p>Landscape</p>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/people.jpg" width="128" height="82" alt="People" />
-                                <figcaption>
-                                    <p>People</p>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="[[++site_url]]assets/img/category-thumbnails/architecture.jpg" width="128" height="82" alt="Architecture" />
-                                <figcaption>
-                                    <p>Architecture</p>
-                                </figcaption>
-                            </figure>
+[[!getResources? 
+    &parents=`2`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE menu-figure-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+    &limit=`0`
+ ]]
                         </div>
                     </div>
                     <a href="#" title="Siguiente" class="next browser">Siguiente</a>
