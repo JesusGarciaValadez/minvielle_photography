@@ -1,0 +1,125 @@
+html,body
+.desktop
+    display: none
+.mobile
+    display: block
+.wrapper
+.central
+    max-width: 305px
+    width: 305px
+.icon
+    display: inline-block
+    width: 45px
+    height: 45px
+    fill: currentColor
+.icon-menu
+    /*fill: #fff210*/
+.cell
+    color: #fff210
+    float: right
+    font-size: em( 16, 16 )
+    overflow: hidden
+    width: 45px
+figure
+    img
+.home
+    header
+        height: 45px
+        margin: 0 auto 13px
+        h1
+            background-position: -30px -9px
+            background-size: 111% 140%
+            width: 154px
+        nav
+            display: none
+            ul
+                li
+                    a
+    main
+        .scrollable_main_photography
+            max-height: 141px
+            margin: 0 auto 35px
+            .items_glympse
+                figure
+                    float: left
+                    position: relative
+                    width: 305px
+                    img
+                        box-sizing: border-box
+                        height: 100%
+                        width: 99%
+            .watermark
+                bottom: auto
+                top: 3px
+            .navigation
+                bottom: 3px
+                margin: 0 0 0 ( -36px / 2 )
+                a
+                    height: 8px
+                    margin: 0 3px 0 0
+                    width: 8px
+        .wrapper_categories
+            width: 86%
+            a
+            .browser
+                display: none
+            .prev
+            .next
+            .disabled
+            .scrollable_categories
+                box-sizing: border-box
+                margin: 0 auto
+                overflow: hidden
+                position: relative
+                width: 100%
+                .items_categories
+                    display: block
+                    height: 100%
+                    position: relative
+                    width: 2000em
+                    figure
+                        float: left
+                        height: 85px
+                        margin: 0 7.5px
+                        width: 122px
+                        &:first-child
+                            margin: 0
+                        &:last-child
+                            margin: 0
+                        &:nth-child( even )
+                            clear: right
+                            margin: 0 0 0 7.5px
+                        &:nth-child( odd )
+                            clear: left
+                            margin: 0 7.5px 0 0
+                        &:hover
+                            figcaption
+                                display: block
+                        a
+                            display: block
+                            img
+                                height: 100%
+                                width: 99%
+                        figcaption
+                            background-color: $figcaption-background
+                            display: none
+                            bottom: 29px
+                            height: 24px
+                            left: 1px
+                            position: relative
+                            width: 100%
+                            p
+                                @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
+                                margin: 0
+                                text-indent: 4px
+                                text-transform: uppercase
+    footer
+        box-sizing: border-box
+        clear: both
+        height: 37px
+        padding: 16px 0 8px
+        p
+            @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
+            text-align: left
+            text-transform: capitalize
+            
