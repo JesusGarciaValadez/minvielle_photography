@@ -1,56 +1,7 @@
-html,body
-    background-color: $site-background
-    display: table
-    height: 100%
-    width: 100%
-.desktop
-.mobile
-    display: none
-.wrapper
-.central
-    display: block
-    margin: 0 auto
-    max-width: 960px
-    width: 93.75%
-figure
-    img
-        border: 1px solid $image-border
 .home
-    header
-        clear: right
-        height: 77px
-        h1
-            @extend .mariano-dominguez-minvielle-logo
-            display: inline-block
-            float: left
-            height: 100%
-            margin: 0
-            text-indent: -2000em
-        nav
-            clear: right
-            display: inline-block
-            float: right
-            ul
-                margin: 28px auto 0
-                li
-                    border-right: 1px solid $text-normal
-                    box-sizing: border-box
-                    float: left
-                    padding: 0 20px
-                    &:first-child
-                        padding: 0 20px 0 0
-                    &:last-child
-                        border-right: 0 none transparent
-                        padding: 0 0 0 20px
-                    a
-                        @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
-                        text-align: center
-                        text-decoration: none
-                        text-transform: uppercase
-                        &:hover,&.active
-                            color: $text-active
     main
         .scrollable_main_photography
+            @include putYellowBorder()
             box-sizing: border-box
             max-height: 446px
             margin: 0 auto 32px
@@ -67,6 +18,9 @@ figure
                     position: relative
                     width: 960px
                     img
+                        display: inline-block
+                        float: left
+                        max-width: 99.9%
             .watermark
                 @extend .marca-de-agua-md-minvielle
                 bottom: 0
@@ -116,13 +70,14 @@ figure
                 margin: 0 auto
                 overflow: hidden
                 position: relative
-                width: 851px
+                width: 861px
                 .items_categories
                     display: block
                     height: 100%
                     position: relative
                     width: 2000em
                     figure
+                        @include putYellowBorder
                         float: left
                         height: 85px
                         margin: 0 7.5px
@@ -135,25 +90,10 @@ figure
                             figcaption
                                 display: block
                         img
-                        figcaption
-                            background-color: $figcaption-background
-                            display: none
-                            bottom: 29px
-                            height: 24px
-                            left: 1px
-                            position: relative
+                            height: 100%
                             width: 100%
+                        figcaption
+                            @include magicFigcaption()
                             p
+                                @include magicFigcaptionText()
                                 @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
-                                margin: 0
-                                text-indent: 4px
-                                text-transform: uppercase
-    footer
-        box-sizing: border-box
-        clear: both
-        height: 37px
-        padding: 16px 0 8px
-        p
-            @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
-            text-align: left
-            text-transform: capitalize

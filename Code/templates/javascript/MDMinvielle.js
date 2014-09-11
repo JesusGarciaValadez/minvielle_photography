@@ -29,6 +29,7 @@
     MDMinvielle.closer;
     MDMinvielle.radio;
     MDMinvielle.tool;
+    MDMinvielle.widthThumbnailCategory = 188;
 
     //  Object prototyping
     MDMinvielle.fn = MDMinvielle.prototype = {
@@ -51,6 +52,13 @@
         //  !Método inicializador
         init:                   function ( ) {
             //MDMinvielle.obtainActualDocument();
+            if( $( window ).innerWidth() <= 568 ) {
+                MDMinvielle.widthThumbnailCategory = 50;
+            } else if ( $( window ).innerWidth() >= 569 && $( window ).innerWidth() <= 1918 ) {
+                MDMinvielle.widthThumbnailCategory = 188;
+            } else {
+                MDMinvielle.widthThumbnailCategory = 347;
+            }
         },
         /**
          *

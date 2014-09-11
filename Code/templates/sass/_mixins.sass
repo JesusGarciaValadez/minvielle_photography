@@ -5,3 +5,18 @@
         size: $size
         weight: $weight
     line-height: $height
+@mixin putYellowBorder ( $weight: 1px, $type: solid, $color: $image-border )
+    border: $weight $type $color
+@mixin magicFigcaption ( $background-color: $figcaption-background, $bottom: 29px, $height: 24px, $width: 99.99% )
+    background-color: $background-color
+    display: none
+    bottom: $bottom
+    height: $height
+    left: 1px
+    position: relative
+    width: $width
+@mixin magicFigcaptionText ( $margin: 0, $indent: 4px, $transform: uppercase )
+    margin: $margin
+    text:
+        indent: $indent
+        transform: $transform

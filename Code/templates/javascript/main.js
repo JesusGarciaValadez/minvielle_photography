@@ -11,6 +11,7 @@
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
     var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 6000;
+
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -38,6 +39,8 @@
 
 
         } //  Si es un móvil...
+
+        MDMinvielle.init();
     } );
 
     //  When page is finished loaded
@@ -45,7 +48,7 @@
 
         // Inicialización de carrusel de imágenes
         if ( $( '.scrollable_main_photography' ).exists() ) {
-            console.log('hi');
+
             MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
                 speed: 300,
                 circular: true,
@@ -80,6 +83,15 @@
                 interval: 5000,
                 autoplay: false,
                 autopause: false
+            } );
+        }
+        console.log('hi');
+        if ( $( '.category,.album' ).exists() ) {
+            console.log('hi');
+            // Masonry para la sección de categorias
+            $( '.masonry' ).masonry( {
+                columnWidth:    widthThumbnailCategory,
+                itemSelector:   '.item'
             } );
         }
     } );

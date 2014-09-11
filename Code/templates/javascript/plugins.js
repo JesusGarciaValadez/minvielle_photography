@@ -68,4 +68,5 @@ jQuery.fn.centerHeight      = function(){
 // Place any jQuery/helper plugins in here.
 // @codekit-prepend "vendor/jquery-1.8.3.min.js";
 // @codekit-prepend "vendor/jquery.tools.custom.min.js";
+// @codekit-prepend "vendor/masonry.js";
 // @codekit-prepend "MDMinvielle.js";

@@ -1,14 +1,21 @@
 <!--@import head-->
-    <body class="page category">
+    <body class="page album">
         <div class="wrapper">
 <!--@import header-->
 
             <main class="central">
+                <h1>[[*pagetitle]]</h1>
+[[!breadcrumbs?
+    &showHomeCrumb=`0`
+    &showCurrentCrumb=`0`
+    &currentAsLink=`0`
+    &crumbSeparator=`<span class="slash_crumb"> / </span>`
+]]
                 <div class="masonry clearfix">
 [[!getResources? 
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`
-    &tpl=`@FILE category-figure-item.html`
+    &tpl=`@FILE album-figure-item.html`
     &includeTVs=`1`
     &processTVs=`1`
     &tvPrefix=``

@@ -505,7 +505,7 @@ textarea {
   font-weight: normal;
   font-style: normal; }
 /* Start Sprite Master CSS */
-.flecha-derecha, .home main .wrapper_categories .next, .flecha-izquierda, .home main .wrapper_categories .prev, .marca-de-agua-md-minvielle, .home main .scrollable_main_photography .watermark, .mariano-dominguez-minvielle-logo, .home header h1 {
+.flecha-derecha, .home main .wrapper_categories .next, .flecha-izquierda, .home main .wrapper_categories .prev, .marca-de-agua-md-minvielle, .home main .scrollable_main_photography .watermark, .mariano-dominguez-minvielle-logo, .page .wrapper header h1 {
   display: inline-block;
   background-repeat: no-repeat;
   background-image: url("../img/home/sprite.png"); }
@@ -525,7 +525,7 @@ textarea {
   width: 132px;
   height: 24px; }
 
-.mariano-dominguez-minvielle-logo, .home header h1 {
+.mariano-dominguez-minvielle-logo, .page .wrapper header h1 {
   background-position: -50px -24px;
   width: 258px;
   height: 53px; }
@@ -546,36 +546,33 @@ html, body {
   max-width: 960px;
   width: 93.75%; }
 
-figure img {
-  border: 1px solid #E2DE37; }
-
-.home header {
+.page .wrapper header {
   clear: right;
   height: 77px; }
-  .home header h1 {
+  .page .wrapper header h1 {
     display: inline-block;
     float: left;
     height: 100%;
     margin: 0;
     text-indent: -2000em; }
-  .home header nav {
+  .page .wrapper header nav {
     clear: right;
     display: inline-block;
     float: right; }
-    .home header nav ul {
+    .page .wrapper header nav ul {
       margin: 28px auto 0; }
-      .home header nav ul li {
+      .page .wrapper header nav ul li {
         border-right: 1px solid #A6A6A6;
         -moz-box-sizing: border-box;
              box-sizing: border-box;
         float: left;
         padding: 0 20px; }
-        .home header nav ul li:first-child {
+        .page .wrapper header nav ul li:first-child {
           padding: 0 20px 0 0; }
-        .home header nav ul li:last-child {
+        .page .wrapper header nav ul li:last-child {
           border-right: 0 none transparent;
           padding: 0 0 0 20px; }
-        .home header nav ul li a {
+        .page .wrapper header nav ul li a {
           color: #A6A6A6;
           font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
           font-size: 0.75em;
@@ -584,9 +581,27 @@ figure img {
           text-align: center;
           text-decoration: none;
           text-transform: uppercase; }
-          .home header nav ul li a:hover, .home header nav ul li a.active {
+          .page .wrapper header nav ul li a:hover, .page .wrapper header nav ul li a.active {
             color: #E2DE37; }
+        .page .wrapper header nav ul li a[title="Mariano Dominguez Minvielle"] {
+          color: #E2DE37; }
+.page .wrapper footer {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: both;
+  height: 37px;
+  padding: 16px 0 8px; }
+  .page .wrapper footer p {
+    color: #686868;
+    font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+    font-size: 0.56em;
+    font-weight: normal;
+    line-height: 1.44em;
+    text-align: left;
+    text-transform: capitalize; }
+
 .home main .scrollable_main_photography {
+  border: 1px solid #E2DE37;
   -moz-box-sizing: border-box;
        box-sizing: border-box;
   max-height: 446px;
@@ -603,6 +618,10 @@ figure img {
       float: left;
       position: relative;
       width: 960px; }
+      .home main .scrollable_main_photography .items_glympse figure img {
+        display: inline-block;
+        float: left;
+        max-width: 99.9%; }
   .home main .scrollable_main_photography .watermark {
     bottom: 0;
     position: absolute;
@@ -650,13 +669,14 @@ figure img {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    width: 851px; }
+    width: 861px; }
     .home main .wrapper_categories .scrollable_categories .items_categories {
       display: block;
       height: 100%;
       position: relative;
       width: 2000em; }
       .home main .wrapper_categories .scrollable_categories .items_categories figure {
+        border: 1px solid #E2DE37;
         float: left;
         height: 85px;
         margin: 0 7.5px;
@@ -667,6 +687,9 @@ figure img {
           margin: 0 0 0 7.5px; }
         .home main .wrapper_categories .scrollable_categories .items_categories figure:hover figcaption {
           display: block; }
+        .home main .wrapper_categories .scrollable_categories .items_categories figure img {
+          height: 100%;
+          width: 100%; }
         .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption {
           background-color: RGBA(0, 0, 0, 0.6);
           display: none;
@@ -674,30 +697,90 @@ figure img {
           height: 24px;
           left: 1px;
           position: relative;
-          width: 100%; }
+          width: 99.99%; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption p {
+            margin: 0;
+            text-indent: 4px;
+            text-transform: uppercase;
             color: #FFF;
             font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
             font-size: 0.69em;
             font-weight: normal;
-            line-height: 2.18em;
-            margin: 0;
-            text-indent: 4px;
-            text-transform: uppercase; }
-.home footer {
+            line-height: 2.18em; }
+
+.category .wrapper .central h1, .album .wrapper .central h1 {
+  color: #E2DE37;
+  font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+  font-size: 1.88em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+  text-transform: uppercase; }
+.category .wrapper .central .B_crumbBox, .album .wrapper .central .B_crumbBox {
+  color: #FFF;
+  font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5em;
+  display: block;
+  margin: 0 0 15px;
+  padding: 0;
+  width: 100%; }
+  .category .wrapper .central .B_crumbBox li, .album .wrapper .central .B_crumbBox li {
+    display: inline-block;
+    list-style: none inside; }
+    .category .wrapper .central .B_crumbBox li a, .album .wrapper .central .B_crumbBox li a {
+      text-decoration: none; }
+      .category .wrapper .central .B_crumbBox li a span, .album .wrapper .central .B_crumbBox li a span {
+        color: #FFF;
+        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+        font-size: 0.75em;
+        font-weight: normal;
+        line-height: 1.5em;
+        text-transform: uppercase; }
+  .category .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n), .album .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n) {
+    display: none; }
+  .category .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n + 3), .album .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n + 3) {
+    display: inline; }
+  .category .wrapper .central .B_crumbBox .B_firstCrumb, .album .wrapper .central .B_crumbBox .B_firstCrumb {
+    display: none; }
+.category .wrapper .central .masonry .item, .album .wrapper .central .masonry .item {
+  border: 1px solid #E2DE37;
   -moz-box-sizing: border-box;
        box-sizing: border-box;
-  clear: both;
-  height: 37px;
-  padding: 16px 0 8px; }
-  .home footer p {
-    color: #686868;
-    font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-    font-size: 0.56em;
-    font-weight: normal;
-    line-height: 1.44em;
-    text-align: left;
-    text-transform: capitalize; }
+  display: inline;
+  float: left;
+  margin: 0 1.5px 3px;
+  max-height: 273px;
+  overflow: hidden;
+  position: relative;
+  width: 19.59%; }
+  .category .wrapper .central .masonry .item:first-child, .album .wrapper .central .masonry .item:first-child {
+    margin: 0 1.5px 3px 0; }
+  .category .wrapper .central .masonry .item:hover a figcaption, .album .wrapper .central .masonry .item:hover a figcaption {
+    display: block; }
+  .category .wrapper .central .masonry .item a, .album .wrapper .central .masonry .item a {
+    display: block; }
+    .category .wrapper .central .masonry .item a img, .album .wrapper .central .masonry .item a img {
+      display: block;
+      width: 100%; }
+    .category .wrapper .central .masonry .item a figcation, .album .wrapper .central .masonry .item a figcation {
+      background-color: RGBA(0, 0, 0, 0.6);
+      display: none;
+      bottom: 29px;
+      height: 24px;
+      left: 1px;
+      position: relative;
+      width: 99.99%; }
+      .category .wrapper .central .masonry .item a figcation p, .album .wrapper .central .masonry .item a figcation p {
+        margin: 0;
+        text-indent: 4px;
+        text-transform: uppercase;
+        color: #FFF;
+        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+        font-size: 0.69em;
+        font-weight: normal;
+        line-height: 2.18em; }
 
 /* ==========================================================================
  * Helper classes
@@ -847,21 +930,11 @@ figure img {
     .home main .wrapper_categories .browser {
       display: none; }
     .home main .wrapper_categories .scrollable_categories {
-      -moz-box-sizing: border-box;
-           box-sizing: border-box;
-      margin: 0 auto;
-      overflow: hidden;
-      position: relative;
       width: 100%; }
       .home main .wrapper_categories .scrollable_categories .items_categories {
-        display: block;
-        height: 100%;
-        position: relative;
-        width: 2000em; }
+        position: static; }
         .home main .wrapper_categories .scrollable_categories .items_categories figure {
-          float: left;
-          height: 85px;
-          margin: 0 7.5px;
+          height: 78px;
           width: 122px; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure:first-child {
             margin: 0; }
@@ -869,48 +942,127 @@ figure img {
             margin: 0; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure:nth-child(even) {
             clear: right;
-            margin: 0 0 0 7.5px; }
+            margin: 0 0 5px 7px; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure:nth-child(odd) {
             clear: left;
-            margin: 0 7.5px 0 0; }
+            margin: 0 7px 5px 0; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure:hover figcaption {
             display: block; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure a {
             display: block; }
             .home main .wrapper_categories .scrollable_categories .items_categories figure a img {
               height: 100%;
-              width: 99%; }
+              width: 100%; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption {
-            background-color: RGBA(0, 0, 0, 0.6);
-            display: none;
             bottom: 29px;
-            height: 24px;
-            left: 1px;
-            position: relative;
-            width: 100%; }
+            height: 24px; }
             .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption p {
               color: #FFF;
               font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
               font-size: 0.69em;
               font-weight: normal;
-              line-height: 2.18em;
-              margin: 0;
-              text-indent: 4px;
-              text-transform: uppercase; }
+              line-height: 2.18em; }
   .home footer {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-    clear: both;
-    height: 37px;
+    height: auto;
     padding: 16px 0 8px; }
     .home footer p {
       color: #686868;
       font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
       font-size: 0.56em;
       font-weight: normal;
-      line-height: 1.44em;
-      text-align: left;
-      text-transform: capitalize; } }
+      line-height: 1.44em; } }
+@media only screen and (min-width: 119.94em) {
+  /* Start Sprite Master CSS */
+  .flecha-derecha-hd, .home main .wrapper_categories .next,
+  .flecha-izquierda-hd,
+  .home main .wrapper_categories .prev,
+  .marca-de-agua-md-minvielle-hd,
+  .home main .scrollable_main_photography .watermark,
+  .mariano-dominguez-minvielle-logo-hd,
+  .home header h1 {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("../img/home/sprite-hd.png") !important; }
+
+  .flecha-derecha-hd, .home main .wrapper_categories .next {
+    background-position: 0px 0px !important;
+    width: 47px !important;
+    height: 153px !important; }
+
+  .flecha-izquierda-hd, .home main .wrapper_categories .prev {
+    background-position: -47px 0px !important;
+    width: 47px !important;
+    height: 146px !important; }
+
+  .marca-de-agua-md-minvielle-hd, .home main .scrollable_main_photography .watermark {
+    background-position: -94px 0px !important;
+    width: 244px !important;
+    height: 47px !important; }
+
+  .mariano-dominguez-minvielle-logo-hd, .home header h1 {
+    background-position: -94px -47px !important;
+    width: 478px !important;
+    height: 100px !important; }
+
+  /* End Sprite Master CSS */
+  html, body {
+    display: block;
+    height: 100%; }
+
+  .mobile {
+    display: none; }
+
+  .central {
+    max-width: 1774px;
+    width: 93.75%; }
+
+  .home header {
+    height: 100px !important; }
+    .home header nav {
+      margin: -11.2px 0 0;
+      position: relative;
+      top: 50%; }
+      .home header nav ul {
+        margin: 0 auto !important;
+        padding: 0;
+        position: relative;
+        top: 50%; }
+        .home header nav ul li a {
+          color: #A6A6A6;
+          font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+          font-size: 1.13em !important;
+          font-weight: normal;
+          line-height: 1.17em !important; }
+  .home main .scrollable_main_photography {
+    max-height: 874px; }
+    .home main .scrollable_main_photography .items_glympse figure {
+      width: 1774px; }
+    .home main .scrollable_main_photography .navigation a {
+      height: 15px;
+      width: 15px; }
+  .home main .wrapper_categories .scrollable_categories {
+    width: 1528px; }
+    .home main .wrapper_categories .scrollable_categories .items_categories figure {
+      height: 153px;
+      width: 240px; }
+      .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption {
+        bottom: 38px;
+        height: 30px;
+        width: 99%; }
+        .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption p {
+          color: #FFF;
+          font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+          font-size: 0.69em;
+          font-weight: normal;
+          line-height: 2.73em; }
+  .home footer {
+    height: auto; }
+    .home footer p {
+      color: #686868;
+      font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+      font-size: 0.81em;
+      font-weight: normal;
+      line-height: 1.5em; } }
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================
