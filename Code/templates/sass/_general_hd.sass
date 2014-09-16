@@ -1,0 +1,16 @@
+header
+    height: 99px
+    overflow: hidden
+    h1
+        @extend .mariano-dominguez-minvielle-logo-hd
+    nav
+        margin: ( -22.4px / 2 ) auto 0
+        ul
+            li
+                a
+                    @include font-mask( normal, em( 16, 16 ), em( 16, 16 ), $font, $text-normal )
+                    &:hover,&.active
+                a[title="Mariano Dominguez Minvielle"]
+footer
+    p
+        @include font-mask( normal, em( 12, 16 ), em( 13, 12 ), $font, $footer-text )

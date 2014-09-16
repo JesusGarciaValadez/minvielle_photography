@@ -1,0 +1,20 @@
+.category,.album
+    .wrapper
+        .central
+            h1
+            .masonry
+                .item
+                    max-height: 216px
+                    width: 49%
+                    &:first-child
+                    &:hover
+                        a
+                            figcaption
+                                display: block
+                    a
+                        img
+                        figcation
+                            @include magicFigcaption()
+                            p
+                                @include magicFigcaptionText()
+                                @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )

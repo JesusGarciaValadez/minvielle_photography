@@ -29,7 +29,7 @@
     MDMinvielle.closer;
     MDMinvielle.radio;
     MDMinvielle.tool;
-    MDMinvielle.widthThumbnailCategory = 188;
+    MDMinvielle.columnWidth = 188;
 
     //  Object prototyping
     MDMinvielle.fn = MDMinvielle.prototype = {
@@ -53,11 +53,11 @@
         init:                   function ( ) {
             //MDMinvielle.obtainActualDocument();
             if( $( window ).innerWidth() <= 568 ) {
-                MDMinvielle.widthThumbnailCategory = 50;
+                MDMinvielle.columnWidth = 50;
             } else if ( $( window ).innerWidth() >= 569 && $( window ).innerWidth() <= 1918 ) {
-                MDMinvielle.widthThumbnailCategory = 188;
+                MDMinvielle.columnWidth = 22;
             } else {
-                MDMinvielle.widthThumbnailCategory = 347;
+                MDMinvielle.columnWidth = 347;
             }
         },
         /**

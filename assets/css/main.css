@@ -505,7 +505,7 @@ textarea {
   font-weight: normal;
   font-style: normal; }
 /* Start Sprite Master CSS */
-.flecha-derecha, .home main .wrapper_categories .next, .flecha-izquierda, .home main .wrapper_categories .prev, .marca-de-agua-md-minvielle, .home main .scrollable_main_photography .watermark, .mariano-dominguez-minvielle-logo, .page .wrapper header h1 {
+.flecha-derecha, .home main .wrapper_categories .next, .flecha-izquierda, .home main .wrapper_categories .prev, .marca-de-agua-md-minvielle, .home main .scrollable_main_photography .watermark, .mariano-dominguez-minvielle-logo, header h1 {
   display: inline-block;
   background-repeat: no-repeat;
   background-image: url("../img/home/sprite.png"); }
@@ -525,7 +525,7 @@ textarea {
   width: 132px;
   height: 24px; }
 
-.mariano-dominguez-minvielle-logo, .page .wrapper header h1 {
+.mariano-dominguez-minvielle-logo, header h1 {
   background-position: -50px -24px;
   width: 258px;
   height: 53px; }
@@ -537,42 +537,38 @@ html, body {
   height: 100%;
   width: 100%; }
 
-.mobile {
-  display: none; }
-
-.central {
-  display: block;
-  margin: 0 auto;
-  max-width: 960px;
-  width: 93.75%; }
-
-.page .wrapper header {
+header {
   clear: right;
-  height: 77px; }
-  .page .wrapper header h1 {
+  height: 77px;
+  position: relative; }
+  header h1 {
     display: inline-block;
     float: left;
     height: 100%;
     margin: 0;
     text-indent: -2000em; }
-  .page .wrapper header nav {
+  header nav {
     clear: right;
-    display: inline-block;
-    float: right; }
-    .page .wrapper header nav ul {
-      margin: 28px auto 0; }
-      .page .wrapper header nav ul li {
+    float: right;
+    margin: -11.5px auto 0;
+    position: absolute;
+    right: 0;
+    top: 50%; }
+    header nav ul {
+      margin: 0 auto;
+      padding: 0; }
+      header nav ul li {
         border-right: 1px solid #A6A6A6;
         -moz-box-sizing: border-box;
              box-sizing: border-box;
         float: left;
         padding: 0 20px; }
-        .page .wrapper header nav ul li:first-child {
+        header nav ul li:first-child {
           padding: 0 20px 0 0; }
-        .page .wrapper header nav ul li:last-child {
+        header nav ul li:last-child {
           border-right: 0 none transparent;
           padding: 0 0 0 20px; }
-        .page .wrapper header nav ul li a {
+        header nav ul li a {
           color: #A6A6A6;
           font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
           font-size: 0.75em;
@@ -581,17 +577,18 @@ html, body {
           text-align: center;
           text-decoration: none;
           text-transform: uppercase; }
-          .page .wrapper header nav ul li a:hover, .page .wrapper header nav ul li a.active {
+          header nav ul li a:hover, header nav ul li a.active {
             color: #E2DE37; }
-        .page .wrapper header nav ul li a[title="Mariano Dominguez Minvielle"] {
+        header nav ul li a[title="Mariano Dominguez Minvielle"] {
           color: #E2DE37; }
-.page .wrapper footer {
+
+footer {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
   clear: both;
   height: 37px;
   padding: 16px 0 8px; }
-  .page .wrapper footer p {
+  footer p {
     color: #686868;
     font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
     font-size: 0.56em;
@@ -599,6 +596,42 @@ html, body {
     line-height: 1.44em;
     text-align: left;
     text-transform: capitalize; }
+
+.mobile {
+  display: none; }
+
+.central {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 93.75%; }
+  .central .B_crumbBox {
+    color: #A6A6A6;
+    font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    display: block;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%; }
+    .central .B_crumbBox li {
+      display: inline-block;
+      list-style: none inside; }
+      .central .B_crumbBox li a {
+        text-decoration: none; }
+        .central .B_crumbBox li a span {
+          color: #A6A6A6;
+          font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+          font-size: 0.75em;
+          font-weight: normal;
+          line-height: 1.5em;
+          text-transform: uppercase; }
+    .central .B_crumbBox .slash_crumb:nth-child(1n) {
+      display: none; }
+    .central .B_crumbBox .slash_crumb:nth-child(1n + 3) {
+      display: inline; }
+    .central .B_crumbBox .B_firstCrumb {
+      display: none; }
 
 .home main .scrollable_main_photography {
   border: 1px solid #E2DE37;
@@ -693,10 +726,10 @@ html, body {
         .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption {
           background-color: RGBA(0, 0, 0, 0.6);
           display: none;
-          bottom: 29px;
+          bottom: 5px;
           height: 24px;
           left: 1px;
-          position: relative;
+          position: absolute;
           width: 99.99%; }
           .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption p {
             margin: 0;
@@ -716,71 +749,67 @@ html, body {
   line-height: 1.5em;
   margin: 0;
   text-transform: uppercase; }
-.category .wrapper .central .B_crumbBox, .album .wrapper .central .B_crumbBox {
-  color: #FFF;
+.category .wrapper .central .masonry, .album .wrapper .central .masonry {
+  display: block;
+  margin: 0 auto;
+  max-width: 960px; }
+  .category .wrapper .central .masonry .item, .album .wrapper .central .masonry .item {
+    border: 1px solid #E2DE37;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    float: left;
+    margin: 0 1.5px 3px;
+    overflow: hidden;
+    position: relative;
+    width: 189px; }
+    .category .wrapper .central .masonry .item a, .album .wrapper .central .masonry .item a {
+      display: block; }
+      .category .wrapper .central .masonry .item a img, .album .wrapper .central .masonry .item a img {
+        display: block;
+        width: 100%; }
+      .category .wrapper .central .masonry .item a figcaption, .album .wrapper .central .masonry .item a figcaption {
+        background-color: RGBA(0, 0, 0, 0.6);
+        display: none;
+        bottom: 5px;
+        height: 24px;
+        left: 1px;
+        position: absolute;
+        width: 99.99%; }
+        .category .wrapper .central .masonry .item a figcaption p, .album .wrapper .central .masonry .item a figcaption p {
+          margin: 0;
+          text-indent: 4px;
+          text-transform: uppercase;
+          color: #FFF;
+          font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+          font-size: 0.69em;
+          font-weight: normal;
+          line-height: 2.18em; }
+    .category .wrapper .central .masonry .item:hover a figcaption, .album .wrapper .central .masonry .item:hover a figcaption {
+      display: block !important; }
+
+.photo .wrapper .central h1 {
+  color: #E2DE37;
   font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.88em;
   font-weight: normal;
   line-height: 1.5em;
-  display: block;
-  margin: 0 0 15px;
-  padding: 0;
-  width: 100%; }
-  .category .wrapper .central .B_crumbBox li, .album .wrapper .central .B_crumbBox li {
-    display: inline-block;
-    list-style: none inside; }
-    .category .wrapper .central .B_crumbBox li a, .album .wrapper .central .B_crumbBox li a {
-      text-decoration: none; }
-      .category .wrapper .central .B_crumbBox li a span, .album .wrapper .central .B_crumbBox li a span {
-        color: #FFF;
-        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-        font-size: 0.75em;
-        font-weight: normal;
-        line-height: 1.5em;
-        text-transform: uppercase; }
-  .category .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n), .album .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n) {
-    display: none; }
-  .category .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n + 3), .album .wrapper .central .B_crumbBox .slash_crumb:nth-child(1n + 3) {
-    display: inline; }
-  .category .wrapper .central .B_crumbBox .B_firstCrumb, .album .wrapper .central .B_crumbBox .B_firstCrumb {
-    display: none; }
-.category .wrapper .central .masonry .item, .album .wrapper .central .masonry .item {
-  border: 1px solid #E2DE37;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  display: inline;
-  float: left;
-  margin: 0 1.5px 3px;
-  max-height: 273px;
+  margin: 0;
+  text-transform: uppercase; }
+.photo .wrapper .central figure {
   overflow: hidden;
-  position: relative;
-  width: 19.59%; }
-  .category .wrapper .central .masonry .item:first-child, .album .wrapper .central .masonry .item:first-child {
-    margin: 0 1.5px 3px 0; }
-  .category .wrapper .central .masonry .item:hover a figcaption, .album .wrapper .central .masonry .item:hover a figcaption {
-    display: block; }
-  .category .wrapper .central .masonry .item a, .album .wrapper .central .masonry .item a {
-    display: block; }
-    .category .wrapper .central .masonry .item a img, .album .wrapper .central .masonry .item a img {
-      display: block;
-      width: 100%; }
-    .category .wrapper .central .masonry .item a figcation, .album .wrapper .central .masonry .item a figcation {
-      background-color: RGBA(0, 0, 0, 0.6);
-      display: none;
-      bottom: 29px;
-      height: 24px;
-      left: 1px;
-      position: relative;
-      width: 99.99%; }
-      .category .wrapper .central .masonry .item a figcation p, .album .wrapper .central .masonry .item a figcation p {
-        margin: 0;
-        text-indent: 4px;
-        text-transform: uppercase;
-        color: #FFF;
-        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-        font-size: 0.69em;
-        font-weight: normal;
-        line-height: 2.18em; }
+  pointer-events: none;
+  position: relative; }
+  .photo .wrapper .central figure img {
+    display: block;
+    width: 100%; }
+  .photo .wrapper .central figure .display {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
 
 /* ==========================================================================
  * Helper classes
@@ -868,6 +897,32 @@ html, body {
   /* Style adjustments for viewports that meet the condition */ }
 @media only screen and (max-width: 35.5em) {
   /* Style adjustments for viewports that meet the condition */
+  html, body {
+    -webkit-overflow-scrolling: touch; }
+    html ::-webkit-scrollbar, html :-webkit-scrollbar, body ::-webkit-scrollbar, body :-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 8px; }
+
+  header {
+    height: 45px;
+    margin: 0 auto 13px; }
+    header h1 {
+      background-position: -30px -9px;
+      background-size: 111% 140%;
+      width: 154px; }
+    header nav {
+      display: none; }
+
+  footer {
+    height: auto;
+    padding: 16px 0 8px; }
+    footer p {
+      color: #686868;
+      font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+      font-size: 0.56em;
+      font-weight: normal;
+      line-height: 1.44em; }
+
   .desktop {
     display: none; }
 
@@ -894,15 +949,6 @@ html, body {
     overflow: hidden;
     width: 45px; }
 
-  .home header {
-    height: 45px;
-    margin: 0 auto 13px; }
-    .home header h1 {
-      background-position: -30px -9px;
-      background-size: 111% 140%;
-      width: 154px; }
-    .home header nav {
-      display: none; }
   .home main .scrollable_main_photography {
     max-height: 141px;
     margin: 0 auto 35px; }
@@ -959,18 +1005,32 @@ html, body {
             .home main .wrapper_categories .scrollable_categories .items_categories figure figcaption p {
               color: #FFF;
               font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-              font-size: 0.69em;
+              font-size: 0.63em;
               font-weight: normal;
-              line-height: 2.18em; }
-  .home footer {
-    height: auto;
-    padding: 16px 0 8px; }
-    .home footer p {
-      color: #686868;
-      font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
-      font-size: 0.56em;
-      font-weight: normal;
-      line-height: 1.44em; } }
+              line-height: 2.4em; }
+
+  .category .wrapper .central .masonry .item, .album .wrapper .central .masonry .item {
+    max-height: 216px;
+    width: 49%; }
+    .category .wrapper .central .masonry .item:hover a figcaption, .album .wrapper .central .masonry .item:hover a figcaption {
+      display: block; }
+    .category .wrapper .central .masonry .item a figcation, .album .wrapper .central .masonry .item a figcation {
+      background-color: RGBA(0, 0, 0, 0.6);
+      display: none;
+      bottom: 5px;
+      height: 24px;
+      left: 1px;
+      position: absolute;
+      width: 99.99%; }
+      .category .wrapper .central .masonry .item a figcation p, .album .wrapper .central .masonry .item a figcation p {
+        margin: 0;
+        text-indent: 4px;
+        text-transform: uppercase;
+        color: #FFF;
+        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+        font-size: 0.69em;
+        font-weight: normal;
+        line-height: 2.18em; } }
 @media only screen and (min-width: 119.94em) {
   /* Start Sprite Master CSS */
   .flecha-derecha-hd, .home main .wrapper_categories .next,
@@ -979,6 +1039,7 @@ html, body {
   .marca-de-agua-md-minvielle-hd,
   .home main .scrollable_main_photography .watermark,
   .mariano-dominguez-minvielle-logo-hd,
+  header h1,
   .home header h1 {
     display: inline-block;
     background-repeat: no-repeat;
@@ -999,12 +1060,31 @@ html, body {
     width: 244px !important;
     height: 47px !important; }
 
-  .mariano-dominguez-minvielle-logo-hd, .home header h1 {
+  .mariano-dominguez-minvielle-logo-hd, header h1, .home header h1 {
     background-position: -94px -47px !important;
     width: 478px !important;
     height: 100px !important; }
 
   /* End Sprite Master CSS */
+  header {
+    height: 99px;
+    overflow: hidden; }
+    header nav {
+      margin: -11.2px auto 0; }
+      header nav ul li a {
+        color: #A6A6A6;
+        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        line-height: 1em; }
+
+  footer p {
+    color: #686868;
+    font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1.08em; }
+
   html, body {
     display: block;
     height: 100%; }
@@ -1062,7 +1142,18 @@ html, body {
       font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
       font-size: 0.81em;
       font-weight: normal;
-      line-height: 1.5em; } }
+      line-height: 1.5em; }
+
+  .category .wrapper .central .masonry, .album .wrapper .central .masonry {
+    max-width: 1920px; }
+    .category .wrapper .central .masonry .item, .album .wrapper .central .masonry .item {
+      width: 19.8%; }
+      .category .wrapper .central .masonry .item a figcaption p, .album .wrapper .central .masonry .item a figcaption p {
+        color: #FFF;
+        font-family: "Myriad Pro",Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        line-height: 1.5em; } }
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================

@@ -10,7 +10,7 @@
  */
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 6000;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
@@ -85,13 +85,17 @@
                 autopause: false
             } );
         }
-        console.log('hi');
         if ( $( '.category,.album' ).exists() ) {
-            console.log('hi');
             // Masonry para la sección de categorias
-            $( '.masonry' ).masonry( {
-                columnWidth:    widthThumbnailCategory,
-                itemSelector:   '.item'
+            $( '.masonry' ).isotope( {
+                itemSelector: '.item',
+                masonry: {
+                    //columnWidth: MDMinvielle.columnWidth,
+                    isFitWidth: false,
+                    isAnimated: true,
+                    gutterWidth:    0.5,
+                    containerStyle: { position: 'absolute' },
+                }
             } );
         }
     } );

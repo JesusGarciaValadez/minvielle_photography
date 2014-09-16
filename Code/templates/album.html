@@ -28,9 +28,17 @@
     </head>
 
     <body class="page album">
-        <div class="wrapper">
+        <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="55" viewBox="0 0 45 55">
+            <defs>
+                <g id="icon-menu">
+                    <path class="path1" d="M2.813 8.438h39.375v8.438h-39.375zM2.813 19.688h39.375v8.438h-39.375zM2.813 30.938h39.375v8.438h-39.375z"></path>
+                </g>
+            </defs>
+        </svg>        <div class="wrapper">
             <header class="central">
-                <h1>[[++site_name]]</h1>
+                <h1>
+                    <a href="[[+site_url]]" title="MD Minvielle Photography Home">[[++site_name]]</a>
+                </h1>
                 <a href="" title="Menu" class="cell mobile">
                     <svg class="icon icon-menu" viewBox="-9 5 61 37">
                         <use xlink:href="#icon-menu"></use>
@@ -65,8 +73,10 @@
     &showCurrentCrumb=`0`
     &currentAsLink=`0`
     &crumbSeparator=`<span class="slash_crumb"> / </span>`
-]]
-                <div class="masonry clearfix">
+    &homeCrumbTitle=``
+    &homeCrumbDescription=``
+    &respectHidemenu=`1`
+]]                <div class="masonry clearfix">
 [[!getResources? 
     &parents=`[[*id]]`
     &tplPath=`[[++assets_path]]../Code/chunks/`

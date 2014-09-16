@@ -5,55 +5,31 @@
                 @include font-mask( normal, em( 30, 16  ), 1.5em, $font, $image-border )
                 margin: 0
                 text-transform: uppercase
-            .B_crumbBox
-                @include font-mask( normal, em( 16, 16  ), 1.5em, $font, $white-color )
-                display: block
-                margin: 0 0 15px
-                padding: 0
-                width: 100%
-                li
-                    display: inline-block
-                    list-style: none inside
-                    a
-                        text-decoration: none
-                        span
-                            @include font-mask( normal, em( 12, 16  ), 1.5em, $font, $white-color )
-                            text-transform: uppercase
-                .slash_crumb
-                    &:nth-child( 1n )
-                        display: none
-                    &:nth-child( 1n + 3 )
-                        display: inline
-                .B_firstCrumb
-                    display: none
-                .B_homeCrumb
-                .B_crumb
-                .B_lastCrumb
-                    .B_currentCrumb
             .masonry
+                display: block
+                margin: 0 auto
+                max-width: 960px
                 .item
                     @include putYellowBorder()
                     box-sizing: border-box
-                    display: inline
                     float: left
                     margin: 0 1.5px 3px
-                    max-height: 273px
                     overflow: hidden
                     position: relative
-                    width: 19.585% //188px
-                    &:first-child
-                        margin: 0 1.5px 3px 0
-                    &:hover
-                        a
-                            figcaption
-                                display: block
+                    width: 189px
                     a
                         display: block
                         img
                             display: block
                             width: 100%
-                        figcation
+                        figcaption
                             @include magicFigcaption()
                             p
                                 @include magicFigcaptionText()
                                 @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
+                    &:hover
+
+                        a
+
+                            figcaption
+                                display: block !important

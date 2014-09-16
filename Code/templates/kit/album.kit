@@ -1,16 +1,12 @@
 <!--@import head-->
     <body class="page album">
+<!--@import svgMenu-->
         <div class="wrapper">
 <!--@import header-->
 
             <main class="central">
                 <h1>[[*pagetitle]]</h1>
-[[!breadcrumbs?
-    &showHomeCrumb=`0`
-    &showCurrentCrumb=`0`
-    &currentAsLink=`0`
-    &crumbSeparator=`<span class="slash_crumb"> / </span>`
-]]
+<!--@import breadcrumbs-->
                 <div class="masonry clearfix">
 [[!getResources? 
     &parents=`[[*id]]`

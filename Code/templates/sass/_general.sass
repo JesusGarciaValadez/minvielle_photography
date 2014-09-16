@@ -3,57 +3,87 @@ html,body
     display: table
     height: 100%
     width: 100%
+header
+    clear: right
+    height: 77px
+    position: relative
+    h1
+        @extend .mariano-dominguez-minvielle-logo
+        display: inline-block
+        float: left
+        height: 100%
+        margin: 0
+        text-indent: -2000em
+    nav
+        clear: right
+        float: right
+        margin: ( -23px / 2 ) auto 0
+        position: absolute
+        right: 0
+        top: 50%
+        ul
+            margin: 0 auto
+            padding: 0
+            li
+                border-right: 1px solid $text-normal
+                box-sizing: border-box
+                float: left
+                padding: 0 20px
+                &:first-child
+                    padding: 0 20px 0 0
+                &:last-child
+                    border-right: 0 none transparent
+                    padding: 0 0 0 20px
+                a
+                    @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
+                    text-align: center
+                    text-decoration: none
+                    text-transform: uppercase
+                    &:hover,&.active
+                        color: $text-active
+                a[title="Mariano Dominguez Minvielle"]
+                    color: $image-border
+footer
+    box-sizing: border-box
+    clear: both
+    height: 37px
+    padding: 16px 0 8px
+    p
+        @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
+        text-align: left
+        text-transform: capitalize
 .desktop
 .mobile
     display: none
 .central
-    display: block
     margin: 0 auto
     max-width: 960px
     width: 93.75%
+    .B_crumbBox
+        @include font-mask( normal, em( 16, 16  ), 1.5em, $font, $text-normal )
+        display: block
+        margin: 0 0 15px
+        padding: 0
+        width: 100%
+        li
+            display: inline-block
+            list-style: none inside
+            a
+                text-decoration: none
+                span
+                    @include font-mask( normal, em( 12, 16  ), 1.5em, $font, $text-normal )
+                    text-transform: uppercase
+        .slash_crumb
+            &:nth-child( 1n )
+                display: none
+            &:nth-child( 1n + 3 )
+                display: inline
+        .B_firstCrumb
+            display: none
+        .B_homeCrumb
+        .B_crumb
+        .B_lastCrumb
+            .B_currentCrumb
 .page
     .wrapper
-        header
-            clear: right
-            height: 77px
-            h1
-                @extend .mariano-dominguez-minvielle-logo
-                display: inline-block
-                float: left
-                height: 100%
-                margin: 0
-                text-indent: -2000em
-            nav
-                clear: right
-                display: inline-block
-                float: right
-                ul
-                    margin: 28px auto 0
-                    li
-                        border-right: 1px solid $text-normal
-                        box-sizing: border-box
-                        float: left
-                        padding: 0 20px
-                        &:first-child
-                            padding: 0 20px 0 0
-                        &:last-child
-                            border-right: 0 none transparent
-                            padding: 0 0 0 20px
-                        a
-                            @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
-                            text-align: center
-                            text-decoration: none
-                            text-transform: uppercase
-                            &:hover,&.active
-                                color: $text-active
-                        a[title="Mariano Dominguez Minvielle"]
-                            color: $image-border
-        footer
-            box-sizing: border-box
-            clear: both
-            height: 37px
-            padding: 16px 0 8px
-            p
-                @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
-                text-align: left
-                text-transform: capitalize
+

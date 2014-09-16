@@ -1,0 +1,22 @@
+.photo
+    .wrapper
+        .central
+            h1
+                @include font-mask( normal, em( 30, 16  ), 1.5em, $font, $image-border )
+                margin: 0
+                text-transform: uppercase
+            figure
+                overflow: hidden
+                pointer-events: none
+                position: relative
+                img
+                    display: block
+                    width: 100%
+                .display
+                    display: block
+                    height: 100%
+                    left: 0
+                    position: absolute
+                    top: 0
+                    width: 100%
+                    z-index: 1

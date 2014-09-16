@@ -1,0 +1,43 @@
+html,body
+    -webkit-overflow-scrolling: touch
+    ::-webkit-scrollbar,:-webkit-scrollbar
+        -webkit-appearance: none
+        width: 8px
+header
+    height: 45px
+    margin: 0 auto 13px
+    h1
+        background-position: -30px -9px
+        background-size: 111% 140%
+        width: 154px
+    nav
+        display: none
+        ul
+            li
+                a
+footer
+    height: auto
+    padding: 16px 0 8px
+    p
+        @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
+.desktop
+    display: none
+.mobile
+    display: block
+.wrapper
+.central
+    max-width: 305px
+    width: 305px
+.icon
+    display: inline-block
+    width: 45px
+    height: 45px
+    fill: currentColor
+.icon-menu
+    /*fill: #fff210*/
+.cell
+    color: #fff210
+    float: right
+    font-size: em( 16, 16 )
+    overflow: hidden
+    width: 45px
