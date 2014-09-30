@@ -14,35 +14,35 @@ header
         height: 100%
         margin: 0
         text-indent: -2000em
-    nav
-        clear: right
-        float: right
-        margin: ( -23px / 2 ) auto 0
-        position: absolute
-        right: 0
-        top: 50%
-        ul
-            margin: 0 auto
-            padding: 0
-            li
-                border-right: 1px solid $text-normal
-                box-sizing: border-box
-                float: left
-                padding: 0 20px
-                &:first-child
-                    padding: 0 20px 0 0
-                &:last-child
-                    border-right: 0 none transparent
-                    padding: 0 0 0 20px
-                a
-                    @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
-                    text-align: center
-                    text-decoration: none
-                    text-transform: uppercase
-                    &:hover,&.active
-                        color: $text-active
-                a[title="Mariano Dominguez Minvielle"]
-                    color: $image-border
+nav
+    clear: right
+    float: right
+    margin: ( -23px / 2 ) auto 0
+    position: absolute
+    right: 0
+    top: 50%
+    ul
+        margin: 0 auto
+        padding: 0
+        li
+            border-right: 1px solid $text-normal
+            box-sizing: border-box
+            float: left
+            padding: 0 20px
+            &:first-child
+                padding: 0 20px 0 0
+            &:last-child
+                border-right: 0 none transparent
+                padding: 0 0 0 20px
+            a
+                @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
+                text-align: center
+                text-decoration: none
+                text-transform: uppercase
+                &:hover,&.active
+                    color: $text-active
+            a[title="Mariano Dominguez Minvielle"]
+                color: $image-border
 footer
     box-sizing: border-box
     clear: both
@@ -83,7 +83,9 @@ footer
         .B_homeCrumb
         .B_crumb
         .B_lastCrumb
-            .B_currentCrumb
+        .B_currentCrumb
+            @include font-mask( normal, em( 12, 16  ), 1.5em, $font, $text-normal )
+            text-transform: uppercase
 .page
     .wrapper
 

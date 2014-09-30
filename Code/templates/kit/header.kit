@@ -7,7 +7,7 @@
                         <use xlink:href="#icon-menu"></use>
                     </svg>
                 </a>
-                <nav class="clearfix">
+                <nav class="clearfix desktop">
                     <ul class="clearfix">
                         <li>
                             <a href="[[++site_url]]" title="Home" target="_self">Home</a>
@@ -29,3 +29,25 @@
                     </ul>
                 </nav>
             </header>
+            <nav class="clearfix mobile">
+                <p>Menu</p>
+                <ul class="clearfix">
+                    <li>
+                        <a href="[[++site_url]]" title="Home" target="_self">Home</a>
+                    </li>
+[[!getResources? 
+    &parents=`19`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE menu-list-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+]]
+
+                </ul>
+            </nav>

@@ -1,0 +1,32 @@
+<!--@import head-->
+    <body class="page blog">
+<!--@import svgMenu-->
+        <div class="wrapper">
+<!--@import header-->
+
+            <section class="central clearfix">
+                <h1>[[*pagetitle]]</h1>
+<!--@import breadcrumbs_blog-->
+ [[!getPage? 
+    &element=`getResources`
+    &parents=`21`
+    &limit=`3`
+    &includeTVs=`1`
+    &includeContent=`1`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE blog-article-item.html`
+    &pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[++site_url]][[+href]]">[[+pageNo]]</a></li>`
+    &pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[++site_url]][[+href]]">[[+pageNo]]</a></li>`
+    &pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[++site_url]][[+href]]"></a></li>`
+    &pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[++site_url]][[+href]]"></a></li>`
+    &pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[++site_url]][[+href]]">&lt;</a></li>`
+    &pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[++site_url]][[+href]]">&gt;</a></li>`
+]]
+            </section>
+            <div class="page-nav">
+                <ul class="page-list clearfix">[[!+page.nav]]</ul>
+            </div>
+<!--@import footer-->
+        
+        </div>
+<!--@import html_end-->

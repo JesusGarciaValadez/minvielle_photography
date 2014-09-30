@@ -1,0 +1,28 @@
+<!--@import head-->
+    <body class="page invited-artist">
+<!--@import svgMenu-->
+        <div class="wrapper">
+<!--@import header-->
+
+            <section class="central">
+                <h2>[[*pagetitle]]</h2>
+<!--@import breadcrumbs_blog-->
+[[!getResources? 
+    &parents=`23`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE invited-artist-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+    &limit=`1`
+ ]]
+            </section>
+<!--@import footer-->
+        
+        </div>
+<!--@import html_end-->

@@ -254,108 +254,43 @@
                 } );
             }
         },
-        validateContactForm:   function ( dataPass ) {
-
-            //  Valida el nombre
-            if ( !MDMinvielle._validateMinLength( 2, dataPass.nombre.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe tu nombre.</p>' );
-                return false;
-            }
-
-            //  Valida el apellido
-            if ( !MDMinvielle._validateMinLength( 2, dataPass.apellido.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe tu apellido.</p>' );
-                return false;
-            }
-
-            //  Valida el correo
-            if ( !MDMinvielle._validateMinLength( 2, dataPass.correo.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe tu email.</p>' );
-                return false;
-            }
-            if ( !MDMinvielle._validateMail( dataPass.correo ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe un email válido.</p>' );
-                return false;
-            }
-
-            //  Valida el teléfono
-            if ( !MDMinvielle._validateMinLength( 7, dataPass.telefono.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>El número no debe tener menos de 8 caracteres.</p>' );
-                return false;
-            }
-            if ( !MDMinvielle._validateMaxLength( 20, dataPass.telefono.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>El número no debe tener mas de 20 caracteres.</p>' );
-                return false;
-            }
-            if ( !MDMinvielle._validateNumber( dataPass.telefono ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe sólo números.</p>' );
-                return false;
-            }
-
-            //  Valida que se escriba un mensaje
-            if ( !MDMinvielle._validateMinLength( 8, dataPass.mensaje.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Por favor, escribe tu mensaje para nosotros.</p>' );
-                return false;
-            }
-            if ( !MDMinvielle._validateMaxLength( 140, dataPass.mensaje.length ) ) {
-                MDMinvielle.openAlert( 'Error', '<p>Tu mensaje debe tener mas de 140 caracteres.</p>' );
-                return false;
-            }
-
-            $.ajax ( 'Code/snippets/dispatcher.php?action=sendAppointment', {
-                beforeSend: function ( ) {
-                    $('.error_indicator').remove();
-                    if ( $('textarea' ).val() === "" ) {
-
-                        $('textarea' ).val( 'Ninguno' );
-                    }
+        //  !Validación del formulario de encuesta de Marzo 2014.
+        validateContactForm:    function ( _rules, _messages, _submitFunction, _invalidFunction ) {
+            var formActive = $( 'form' ).validate( {
+                onfocusout: false,
+                onclick: true,
+                onkeyup: false,
+                onsubmit: true,
+                focusCleanup: true,
+                focusInvalid: false,
+                errorClass: "error",
+                validClass: "valid",
+                errorElement: "label",
+                /*showErrors: function( errorMap, errorList ) {
+                    $('#message').empty().removeClass();
+                    $("#message").html('<p>Error al ingresar la información.</p><p>Verifique que sus datos están correctos o que no falte ningún dato.</p><p>Por favor, vuelvalo a intentar.</p>');
+                    $('#message').addClass('wrong').show('fast', function(){
+                        $('#message').show('fast');
+                    });
+                    this.defaultShowErrors();
+                },*/
+                errorPlacement: function( error, element ) {
+                    //element.addClass( 'error' );
                 },
-                cache: false,
-                complete: function ( ) {},
-                contentType: "application/x-www-form-urlencoded",
-                converters: {
-                    "* text":       window.String,
-                    "text html":    true,
-                    "text json":    $.parseJSON,
-                    "text xml":     $.parseXML
+                //debug:true,
+                rules: _rules,
+                messages: _messages,
+                ignore: 'textarea, checkbox',
+                highlight: function( element, errorClass, validClass ) {
+                    $( element ).addClass( errorClass );
                 },
-                data: dataPass,
-                error:  function () {
-                    $( '.alert' ).addClass( 'error_message' );
-                    _title      = 'Error';
-                    _markup     = '<p>Hubo un error al enviar el formulario. ¿Podrías intentarlo nuevamente?.</p>';
-                    MDMinvielle.openAlert( _title, _markup );
+                unhighlight: function( element, errorClass ){
+                    $( element ).removeClass( errorClass );
                 },
-                success: function ( responseText ) {
-                    //console.log(responseText.success);
-
-                    var _title, _markup;
-
-                    if ( $.parseJSON( responseText ) ) {
-
-                        responseText    = $.parseJSON( responseText );
-
-                        if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
-
-                            window.location.href    = 'http://www.giovannibojanini.com/agradecimiento.html';
-                        } else {
-
-                            $( '.alert' ).addClass( 'error_message' );
-                            _title      = 'Error';
-                            _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
-                            MDMinvielle.openAlert( _title, _markup );
-                        }
-                    } else {
-                        $( '.alert' ).addClass( 'error_message' );
-                        _title      = 'Error';
-                        _markup     = '<p>Hubo un error. ¿Podría intentarlo nuevamente?.</p>';
-                        MDMinvielle.openAlert( _title, _markup );
-                    }
-                    //MDMinvielle.smoothScroll( 'body' );
-                },
-                type: "POST"
-            } );
-        }
+                submitHandler: _submitFunction,
+                invalidHandler: _invalidFunction
+            } ); 
+        },
     };
 
     // Give the init function the MDMinvielle prototype for later instantiation

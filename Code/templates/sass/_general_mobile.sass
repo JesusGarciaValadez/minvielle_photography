@@ -10,11 +10,50 @@ header
         background-position: -30px -9px
         background-size: 111% 140%
         width: 154px
-    nav
-        display: none
-        ul
-            li
-                a
+nav
+    background: #141414
+    clear: none
+    float: right
+    height: 100%
+    margin: 0
+    overflow: hidden
+    position: absolute
+    right: 0
+    transition: width 0.5s ease 0s
+    top: 0
+    width: 0
+    z-index: 1
+    &.active
+        transition: width 0.5s ease 0s
+        width: 215px
+    p
+        @include font-mask( bold, em( 18, 16 ), 1.5em, $font, #333333 )
+        position: relative
+        text-indent: 20px
+        text-transform: uppercase
+        &:after
+            content: "x"
+            cursor: pointer
+            font-size: em( 20, 15 )
+            line-height: 1em
+            position: absolute
+            right: 5%
+            text-transform: lowercase
+    ul
+        margin: 0 auto
+        padding: 0
+        li
+            border-right: 0 none transparent !important
+            box-sizing: border-box
+            clear: both
+            float: auto
+            padding: 15px 20px !important
+            a
+                @include font-mask( normal, em( 15, 16 ), 1.5em, $font, $text-normal )
+                &:hover,&.active
+                    color: $text-active !important
+            a[title="Mariano Dominguez Minvielle"]
+                color: $text-normal
 footer
     height: auto
     padding: 16px 0 8px

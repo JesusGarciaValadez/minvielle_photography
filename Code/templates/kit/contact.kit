@@ -1,0 +1,64 @@
+<!--@import head-->
+    <body class="page contact">
+<!--@import svgMenu-->
+        <div class="wrapper">
+<!--@import header-->
+
+            <main class="central">
+                <h1>[[*pagetitle]]</h1>
+<!--@import breadcrumbs_blog-->
+                <section>
+                    <form action="[[++site_url]]Code/snippets/controller.php?action=contact" method="post" accept-charset="utf-8" class="clearfix">
+                        <fieldset>
+                            <legend>Contact Form</legend>
+                            <p>Send an email. All fields with an * are required.</p>
+                            <div class="input text clearfix">
+                                <input type="text" name="name" value="" placeholder="" required="true">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input text clearfix">
+                                <input type="email" name="email" value="" placeholder="" required="true">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input text clearfix">
+                                <input type="text" name="subject" value="" placeholder="" required="true">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="input textarea clearfix">
+                                <textarea name="message" placeholder=""></textarea>
+                            </div>
+                            <div class="input submit clearfix">
+                                <input type="submit" value="Send Email" />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Contact</legend>
+                            <ul>
+                                <li class="phone_frameless">+101 1564 999</li>
+                                <li class="phone_with_frame">+21 3476 858</li>
+                                <li class="links_title">Links</li>
+                                <li>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="" alt="Facebook" class="contact_facebook_icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="" alt="Google +" class="contact_google_icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="" alt="Twitter" class="contact_twitter_icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="" alt="YouTube" class="contact_youtube_icon"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+<!--@import footer-->
+        
+        </div>
+<!--@import html_end-->

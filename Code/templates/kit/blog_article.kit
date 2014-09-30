@@ -1,0 +1,27 @@
+<!--@import head-->
+    <body class="page article">
+<!--@import svgMenu-->
+        <div class="wrapper">
+<!--@import header-->
+
+            <section class="central">
+                <h1>[[*pagetitle]]</h1>
+[[!breadcrumbs?
+    &showHomeCrumb=`1`
+    &showCurrentCrumb=`1`
+    &currentAsLink=`0`
+    &crumbSeparator=`<span class="slash_crumb"> / </span>`
+    &homeCrumbTitle=`Home`
+    &homeCrumbDescription=``
+    &respectHidemenu=`0`
+    &bcTplCrumbCurrentLink=`<a class="B_currentCrumb read-article" itemprop="url" rel="[[+description]]" href="[[~[[+resource]]]]"><span itemprop="title">[[+text]]+/span></a>`
+    &bcTplCrumbCurrent=`<li itemscope="itemscope" class="B_currentCrumb read-active" itemtype="http://data-vocabulary.org/Breadcrumb">[[+text]]</li>`
+]]
+                <article>
+                    [[*content]]
+                </article>
+            </section>
+<!--@import footer-->
+        
+        </div>
+<!--@import html_end-->
