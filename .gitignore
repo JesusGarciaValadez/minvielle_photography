@@ -11,3 +11,8 @@
 /bower_components/
 
 /Code/templates/sass/.sass-cache
+/Code/BD/
+
+/Code/snippets/db/connection.php
+
+/Code/snippets/libs/pp.config.ini
