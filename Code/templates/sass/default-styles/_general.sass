@@ -14,6 +14,11 @@ header
         height: 100%
         margin: 0
         text-indent: -2000em
+        a
+            color: transparent
+            display: block
+            height: 100%
+            width: 100%
 nav
     clear: right
     float: right
@@ -44,20 +49,46 @@ nav
             a[title="Mariano Dominguez Minvielle"]
                 color: $image-border
 footer
+    bottom: 5px
     box-sizing: border-box
     clear: both
-    height: 37px
-    padding: 16px 0 8px
+    height: 30px
+    left: 50%
+    margin: 0 0 0 ( -93.75% / 2 ) !important
+    padding: 0
+    position: relative
+    ul
+        float: left
+        margin: 0 10px 0 0
+        padding: 0
+        li
+            float: left
+            list-style: none inside
+            margin: 0 2.5px
+            &:first-child
+                margin:  0 2.5px 0 0
+            &:last-child
+                margin: 0 0 0 2.55px
+            a
+                color: transparent
+                &[title="Facebook"]
+                    @extend .facebook
+                &[title="Twitter"]
+                    @extend .twitter
+                &[title="Flickr"]
+                    @extend .flickr
     p
         @include font-mask( normal, em( 9, 16 ), em( 13, 9 ), $font, $footer-text )
+        float: left
         text-align: left
         text-transform: capitalize
 .desktop
 .mobile
     display: none
 .central
+    display: block
     margin: 0 auto
-    max-width: 960px
+    //max-width: 960px
     width: 93.75%
     .B_crumbBox
         @include font-mask( normal, em( 16, 16  ), 1.5em, $font, $text-normal )
@@ -87,5 +118,7 @@ footer
             @include font-mask( normal, em( 12, 16  ), 1.5em, $font, $text-normal )
             text-transform: uppercase
 .page
-    .wrapper
+.wrapper
+    display: table
+    width: 100%
 

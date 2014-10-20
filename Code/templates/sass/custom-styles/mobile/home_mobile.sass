@@ -23,7 +23,7 @@
                     margin: 0 3px 0 0
                     width: 8px
         .wrapper_categories
-            width: 86%
+            width: 100% !important
             a
             .browser
                 display: none
@@ -31,22 +31,25 @@
             .next
             .disabled
             .scrollable_categories
+                margin: 0 0 0 -50%
                 width: 100%
                 .items_categories
                     position: static
+                    width: 100%
                     figure
-                        height: 78px
-                        width: 122px
+                        //height: 78px
+                        height: auto
+                        width: 46%
                         &:first-child
                             margin: 0
                         &:last-child
                             margin: 0
                         &:nth-child( even )
                             clear: right
-                            margin: 0 0 5px 7px
+                            margin: 0 0 3% 2.5%
                         &:nth-child( odd )
                             clear: left
-                            margin: 0 7px 5px 0
+                            margin: 0 2.5% 3% 0
                         &:hover
                             figcaption
                                 display: block
@@ -56,8 +59,9 @@
                                 height: 100%
                                 width: 100%
                         figcaption
-                            bottom: 29px
+                            bottom: 5px
                             height: 24px
+                            left: 0
                             p
                                 @include font-mask( normal, em( 10, 16 ), em( 24, 10 ), $font, $white-color )
             

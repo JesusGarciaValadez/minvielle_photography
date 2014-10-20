@@ -21,16 +21,19 @@
                 clear: both
                 display: block
                 float: none
+                height: 425px
+                min-height: initial
                 width: 100%
                 .bigger
                     img
                         width: 100%
                 ul
-                    display: none
-                    top: 625px
+                    position: absolute
+                    top: 220px !important
                     li
-                        margin: 0 30px 0 0 !important
-                        &:last-child
+                        margin: 0 5% 2% 0 !important
+                        width: 47.5%
+                        &:nth-child( 2n ),&:last-child
                             margin: 0 !important
                         .smaller
                             @include putYellowBorder

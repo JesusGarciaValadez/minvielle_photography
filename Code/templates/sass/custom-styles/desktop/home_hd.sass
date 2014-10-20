@@ -24,8 +24,8 @@ html,body
                     a
                         @include font-mask( normal, em( 18, 16 ) !important, em( 21, 18 ) !important, $font, $text-normal )
     main
+        margin: 0 auto
         .scrollable_main_photography
-            max-height: 874px
             .items_glympse
                 figure
                     width: 1774px
@@ -37,6 +37,7 @@ html,body
                     height: 15px
                     width: 15px
         .wrapper_categories
+            height: 155px
             a
             .browser
                 margin: ( -153px / 2 ) auto 0
@@ -46,6 +47,7 @@ html,body
                 @extend .flecha-derecha-hd
             .disabled
             .scrollable_categories
+                height: 100%
                 width: 1528px
                 .items_categories
                     figure
@@ -57,7 +59,3 @@ html,body
                             width: 99%
                             p
                                 @include font-mask( normal, em( 11, 16 ), em( 30, 11 ), $font, $white-color )
-    footer
-        height: auto
-        p
-            @include font-mask( normal, em( 13, 16 ), 1.5em, $font, $footer-text )

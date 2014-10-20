@@ -3,7 +3,10 @@
         .scrollable_main_photography
             @include putYellowBorder()
             box-sizing: border-box
-            max-height: 446px
+            clear: both
+            display: block
+            float: left
+            height: 446px
             margin: 0 auto 32px
             overflow: hidden
             position: relative
@@ -11,7 +14,7 @@
             .items_glympse
                 display: block
                 height: 100%
-                position: relative
+                position: absolute
                 width: 2000em
                 figure
                     float: left
@@ -47,16 +50,23 @@
                         margin: 0
         .wrapper_categories
             box-sizing: border-box
+            clear: both
+            display: block
+            float: left
+            height: 90px
             margin: 0 auto
+            overflow: hidden
             position: relative
             width: 100%
             a
             .browser
                 color: transparent
                 display: inline-block
+                float: left
                 margin: ( -82px / 2 ) 0 0
                 position: absolute
                 top: 50%
+                z-index: 1
             .prev
                 @extend .flecha-izquierda
                 left: 0
@@ -67,17 +77,22 @@
                 display: none
             .scrollable_categories
                 box-sizing: border-box
-                margin: 0 auto
+                display: inline-block
+                height: 90px
+                left: 50%
+                margin: 0 0 0 ( -93.1% / 2 )
                 overflow: hidden
-                position: relative
-                width: 861px
+                position: absolute
+                width: 91.145833333%
+                z-index: 0
                 .items_categories
                     display: block
-                    height: 100%
-                    position: relative
+                    height: auto
+                    position: absolute
                     width: 2000em
                     figure
                         @include putYellowBorder
+                        display: block
                         float: left
                         height: 85px
                         margin: 0 7.5px
@@ -98,3 +113,6 @@
                             p
                                 @include magicFigcaptionText()
                                 @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
+    footer
+        position: absolute
+        
