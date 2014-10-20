@@ -291,6 +291,13 @@
                 invalidHandler: _invalidFunction
             } ); 
         },
+        calculateHeightOfMainCarrusel:    function () {
+            _innerWidth = $( '.scrollable_main_photography' ).width();
+            $( '.items_glympse figure' ).width( _innerWidth );
+
+            _innerHeight = $( '.items_glympse figure' ).height();
+            $( '.scrollable_main_photography' ).height( _innerHeight );
+        } 
     };
 
     // Give the init function the MDMinvielle prototype for later instantiation

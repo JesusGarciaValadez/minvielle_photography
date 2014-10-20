@@ -1,5 +1,5 @@
 @import "bourbon"
-@import "_normalize"
+@import "default-styles/_normalize"
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
@@ -91,20 +91,20 @@ textarea
    Author's custom styles
    ========================================================================== */
 
-@import "_variables"
-@import "_sprite"
-@import "_sprite_contact"
-@import "_mixins"
-@import "_general"
+@import "default-styles/_variables"
+@import "sprites/_sprite"
+@import "sprites/_sprite_contact"
+@import "default-styles/_mixins"
+@import "default-styles/_general"
 
-@import "home"
-@import "blog"
-@import "blog_article"
-@import "bio"
-@import "invited_artists"
-@import "contact"
-@import "category"
-@import "photography"
+@import "custom-styles/desktop/home"
+@import "custom-styles/desktop/blog"
+@import "custom-styles/desktop/blog_article"
+@import "custom-styles/desktop/bio"
+@import "custom-styles/desktop/invited_artists"
+@import "custom-styles/desktop/contact"
+@import "custom-styles/desktop/category"
+@import "custom-styles/desktop/photography"
 
 /* ==========================================================================
    Helper classes
@@ -209,25 +209,25 @@ textarea
     /* Style adjustments for viewports that meet the condition */
 @media only screen and (max-width: em( 568, 16 ))
     /* Style adjustments for viewports that meet the condition */
-    @import "_general_mobile"
+    @import "default-styles/_general_mobile"
 
-    @import "home_mobile"
-    @import "blog_mobile"
-    @import "bio_mobile"
-    @import "invited_artists_mobile"
-    @import "contact_mobile"
-    @import "category_mobile"
+    @import "custom-styles/mobile/home_mobile"
+    @import "custom-styles/mobile/blog_mobile"
+    @import "custom-styles/mobile/bio_mobile"
+    @import "custom-styles/mobile/invited_artists_mobile"
+    @import "custom-styles/mobile/contact_mobile"
+    @import "custom-styles/mobile/category_mobile"
 @media only screen and (min-width: em( 1919, 16 ))
-    @import "_sprite_hd"
-    @import "_sprite_contact_hd"
-    @import "_general_hd"
+    @import "sprites/_sprite_hd"
+    @import "sprites/_sprite_contact_hd"
+    @import "default-styles/_general_hd"
 
-    @import "home_hd"
-    @import "blog_hd"
-    @import "bio_hd"
-    @import "invited_artists_hd"
-    @import "contact_hd"
-    @import "category_hd"
+    @import "custom-styles/desktop/home_hd"
+    @import "custom-styles/desktop/blog_hd"
+    @import "custom-styles/desktop/bio_hd"
+    @import "custom-styles/desktop/invited_artists_hd"
+    @import "custom-styles/desktop/contact_hd"
+    @import "custom-styles/desktop/category_hd"
 
 @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi)
     /* Style adjustments for high resolution devices */

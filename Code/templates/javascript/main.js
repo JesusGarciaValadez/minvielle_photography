@@ -10,7 +10,8 @@
  */
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568;
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, 
+    maxDeviceWidth = 568, _innerWidth = 0, _innerHeight = 0;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
@@ -63,6 +64,11 @@
 
         // Inicialización de carrusel de imágenes en el Home
         if ( $( '.scrollable_main_photography' ).exists() ) {
+            MDMinvielle.calculateHeightOfMainCarrusel();
+            if ( window.innerWidth <= 580 ) {
+                var thumbnailsHeight    = $( '.items_categories' ).height();
+                $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
+            }
 
             MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
                 speed: 300,
@@ -82,8 +88,21 @@
                 autoplay: true,
                 autopause: false
             } );
+
+            $( window ).on( 'resize', function ( e ) {
+                e.stopPropagation();
+                e.preventDefault();
+
+                MDMinvielle.calculateHeightOfMainCarrusel();
+
+                if ( window.innerWidth <= 580 ) {
+                    var thumbnailsHeight    = $( '.items_categories' ).height();
+                    $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
+                }
+            } );
         }
 
+        //  Thumbnails de las categorias en el Home
         if ( $( '.scrollable_categories' ).exists() ) {
             MDMinvielle.inicializeCarrousel( '.scrollable_categories', {
                 speed: 300,
@@ -103,7 +122,9 @@
         //  Masonry para las secciones de albumes y categorías
         if ( $( '.category,.album' ).exists() ) {
 
-            setTimeout( function () {
+            var _masonry;
+            var isotope = setInterval( function () {
+
                 // Masonry para la sección de categorias
                 $( '.masonry' ).isotope( {
                     itemSelector: '.item',
@@ -115,7 +136,12 @@
                         containerStyle: { position: 'absolute' },
                     }
                 } );
-            }, 1000 );
+
+                _masonry = $( '.masonry' ).data( 'isotope' )._isLayoutInited;
+                if ( _masonry ) {
+                    clearInterval( isotope );
+                }
+            }, 500 );
         }
 
         //  Centrado horizontal de la paginación del blog
