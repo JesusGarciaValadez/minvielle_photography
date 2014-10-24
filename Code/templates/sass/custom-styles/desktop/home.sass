@@ -1,118 +1,121 @@
 .home
-    main
-        .scrollable_main_photography
-            @include putYellowBorder()
-            box-sizing: border-box
-            clear: both
-            display: block
-            float: left
-            height: 446px
-            margin: 0 auto 32px
-            overflow: hidden
-            position: relative
-            width: 100%
-            .items_glympse
-                display: block
-                height: 100%
-                position: absolute
-                width: 2000em
-                figure
-                    float: left
-                    position: relative
-                    width: 960px
-                    img
-                        display: inline-block
-                        float: left
-                        max-width: 99.9%
-            .watermark
-                @extend .marca-de-agua-md-minvielle
-                bottom: 0
-                position: absolute
-                right: 0
-                z-index: 5
-            .navigation
-                bottom: 20px
-                display: inline-block
-                left: 50%
-                margin: 0 0 0 -2%
-                position: absolute
-                a
-                    background-color: transparent
-                    border: 1px solid $white-color
-                    border-radius: 50%
-                    float: left
-                    height: 10px
-                    margin: 0 5px 0 0
-                    width: 10px
-                    &:hover, &.active
-                        background-color: $text-active
-                    &:last-child
-                        margin: 0
-        .wrapper_categories
-            box-sizing: border-box
-            clear: both
-            display: block
-            float: left
-            height: 90px
-            margin: 0 auto
-            overflow: hidden
-            position: relative
-            width: 100%
-            a
-            .browser
-                color: transparent
-                display: inline-block
-                float: left
-                margin: ( -82px / 2 ) 0 0
-                position: absolute
-                top: 50%
-                z-index: 1
-            .prev
-                @extend .flecha-izquierda
-                left: 0
-            .next
-                @extend .flecha-derecha
-                right: 0
-            .disabled
-                display: none
-            .scrollable_categories
+    .wrapper
+        section.central
+            margin: 0 auto 15px
+            .scrollable_main_photography
+                @include putYellowBorder()
                 box-sizing: border-box
-                display: inline-block
-                height: 90px
-                left: 50%
-                margin: 0 0 0 ( -93.1% / 2 )
+                clear: both
+                display: block
+                float: left
+                height: 446px
+                margin: 0 auto 32px
                 overflow: hidden
-                position: absolute
-                width: 91.145833333%
-                z-index: 0
-                .items_categories
+                position: relative
+                width: 100%
+                .items_glympse
                     display: block
-                    height: auto
+                    height: 100%
                     position: absolute
                     width: 2000em
                     figure
-                        @include putYellowBorder
-                        display: block
                         float: left
-                        height: 85px
-                        margin: 0 7.5px
                         position: relative
-                        width: 129px
-                        &:first-child
-                            margin: 0 7.5px 0 0
-                        &:last-child
-                            margin: 0 0 0 7.5px
-                        &:hover
-                            figcaption
-                                display: block
+                        width: 960px
                         img
-                            height: 100%
-                            width: 100%
-                        figcaption
-                            @include magicFigcaption()
-                            p
-                                @include magicFigcaptionText()
-                                @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
+                            display: inline-block
+                            float: left
+                            max-width: 99.9%
+                .watermark
+                    @extend .marca-de-agua-md-minvielle
+                    bottom: 0
+                    position: absolute
+                    right: 0
+                    z-index: 5
+                .navigation
+                    bottom: 20px
+                    display: inline-block
+                    left: 50%
+                    margin: 0 0 0 -2%
+                    position: absolute
+                    a
+                        background-color: transparent
+                        border: 1px solid $white-color
+                        border-radius: 50%
+                        float: left
+                        height: 10px
+                        margin: 0 5px 0 0
+                        width: 10px
+                        &:hover, &.active
+                            background-color: $text-active
+                        &:last-child
+                            margin: 0
+            .wrapper_categories
+                box-sizing: border-box
+                clear: both
+                display: block
+                float: left
+                height: 90px
+                margin: 0 auto
+                overflow: hidden
+                position: relative
+                width: 100%
+                a
+                .browser
+                    color: transparent
+                    cursor: pointer
+                    display: inline-block
+                    float: left
+                    margin: ( -82px / 2 ) 0 0
+                    position: absolute
+                    top: 50%
+                    z-index: 1
+                .prev
+                    @extend .flecha-izquierda
+                    left: 0
+                .next
+                    @extend .flecha-derecha
+                    right: 0
+                .disabled
+                    display: none
+                .scrollable_categories
+                    box-sizing: border-box
+                    display: inline-block
+                    height: 90px
+                    left: 50%
+                    margin: 0 0 0 ( -93.1% / 2 )
+                    overflow: hidden
+                    position: absolute
+                    width: 91.145833333%
+                    z-index: 0
+                    .items_categories
+                        display: block
+                        height: auto
+                        position: absolute
+                        width: 2000em
+                        figure
+                            @include putYellowBorder
+                            display: block
+                            float: left
+                            height: 85px
+                            margin: 0 7.5px
+                            position: relative
+                            width: 129px
+                            &:first-child
+                                margin: 0 7.5px 0 0
+                            &:last-child
+                                margin: 0 0 0 7.5px
+                            &:hover
+                                figcaption
+                                    display: block
+                            img
+                                height: 100%
+                                width: 100%
+                            figcaption
+                                @include magicFigcaption()
+                                p
+                                    @include magicFigcaptionText()
+                                    @include font-mask( normal, em( 11, 16 ), em( 24, 11 ), $font, $white-color )
     footer
-        position: absolute
-        
+        position: relative
+    

@@ -231,8 +231,6 @@
          *
          *  @function:  !closeAlert
          *  @description:   Close an alert box with a message
-         *  @see:   http://bassistance.de/jquery-plugins/jquery-plugin-validation/ ||
-         *          http://docs.jquery.com/Plugins/Validation
          *  @author: @_Chucho_
          *
          */
@@ -254,6 +252,19 @@
                 } );
             }
         },
+        /**
+         *
+         *  @function:  !closeAlert
+         *  @description:   Validación del formulario de encuesta de Marzo 2014.
+         *  @params:    Object _rules Rules for each filed of the form
+         *  @params:    Object _messages Messages for each filed of the form
+         *  @params:    Object _submitFunction Function to handle succes in petition
+         *  @params:    Object _invalidFunction Function to handle a invalid petition
+         *  @see:   http://bassistance.de/jquery-plugins/jquery-plugin-validation/ ||
+         *          http://docs.jquery.com/Plugins/Validation
+         *  @author: @_Chucho_
+         *
+         */
         //  !Validación del formulario de encuesta de Marzo 2014.
         validateContactForm:    function ( _rules, _messages, _submitFunction, _invalidFunction ) {
             var formActive = $( 'form' ).validate( {
@@ -291,13 +302,37 @@
                 invalidHandler: _invalidFunction
             } ); 
         },
+        /**
+         *
+         *  @function:  calculateHeightOfMainCarrusel
+         *  @description: Calculate the height of the carrusels placed in Home
+         *  @author: @_Chucho_
+         *
+         */
+        //  !Calculate the height of the carrusels placed in Home
         calculateHeightOfMainCarrusel:    function () {
             _innerWidth = $( '.scrollable_main_photography' ).width();
             $( '.items_glympse figure' ).width( _innerWidth );
 
             _innerHeight = $( '.items_glympse figure' ).height();
             $( '.scrollable_main_photography' ).height( _innerHeight );
-        } 
+        }, 
+        /**
+         *
+         *  @function:  stickyFooter
+         *  @description: Ayuda a emplazar el footer si el contenido no es lo 
+         *                suficientemente grande para llenar la pantalla
+         *  @author: @_Chucho_
+         */
+        //  !Ayuda a emplazar el footer si el contenido no es lo 
+        //  suficientemente grande para llenar la pantalla
+        stickyFooter:   function () {
+            var docHeight       = $( '.wrapper' ).height();
+            var windowHeight    = $( window ).innerHeight();
+            if ( docHeight <= windowHeight ) {
+                $( 'footer' ).addClass( 'sticky' );
+            }
+        }
     };
 
     // Give the init function the MDMinvielle prototype for later instantiation
