@@ -255,5 +255,18 @@
 
             MDMinvielle.validateContactForm ( rules, messages, submitFunction, invalidFunction );
         }
+        
+        //  Emplaza el footer en la parte baja del browser si el contenido no es 
+        //  lo suficientemente grande para llenar la pantalla.
+        if ( $( '.wrapper' ).exists() ) {
+            MDMinvielle.stickyFooter();
+            
+            $( window ).on( 'resize', function ( e ) {
+                e.stopPropagation();
+                e.preventDefault();
+                
+                MDMinvielle.stickyFooter();
+            } );
+        }
     } );
 } ) ( jQuery, window, document );
