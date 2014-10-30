@@ -8,7 +8,7 @@ header
     height: 77px
     position: relative
     z-index: 1
-    h1
+    h2
         @extend .mariano-dominguez-minvielle-logo
         display: inline-block
         float: left
@@ -73,10 +73,12 @@ nav
                     clear: both
                     display: block
                     float: auto
-                    padding: 5px 0 5px 15px !important
+                    padding: 5px 0 5px 15px
                     width: 100%
+                    &:nth-child( 3n + 1 )
+                        padding: 5px 0 5px 15px !important
                     &:nth-child( 2n )
-                        padding: 0 0 5px 15px !important
+                        padding: 0 0 5px 15px
                     &.triangle
                         border-bottom: 0 none transparent
                         height: 30px

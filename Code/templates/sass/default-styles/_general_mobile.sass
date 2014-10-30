@@ -6,7 +6,8 @@ html,body
 header
     height: 45px
     margin: 0 auto 13px
-    h1
+    z-index: 0
+    h2
         background-position: -20px -40px
         background-size: 115% 160%
         width: 154px
@@ -48,6 +49,7 @@ nav
             clear: both
             float: auto
             padding: 15px 20px !important
+            width: 100%
             a
                 @include font-mask( normal, em( 15, 16 ), 1.5em, $font, $text-normal )
                 &:hover,&.active
