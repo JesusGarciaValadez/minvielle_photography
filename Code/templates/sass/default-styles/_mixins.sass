@@ -27,3 +27,10 @@
     padding: 10px 25px
     text-decoration: none
     text-transform: uppercase
+@mixin triangle ( $colorTop, $styleTop, $widthTop, $colorRight, $styleRight, $widthRight, $colorBottom, $styleBottom, $widthBottom, $colorLeft, $styleLeft, $widthLeft )
+    border:
+        color: $colorTop $colorRight $colorBottom $colorLeft
+        style: $styleTop $styleRight $styleBottom $styleLeft
+        width: $widthTop $widthRight $widthBottom $widthLeft
+    box-sizing: border-box
+    display: block

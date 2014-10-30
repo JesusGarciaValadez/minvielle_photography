@@ -22353,6 +22353,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/chunks\/menu-list-item-conditional.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/menu-list-item-conditional.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/chunks\/menu-list-item.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -22917,6 +22926,15 @@
 		"outputAbbreviatedPath": "\/Code\/chunks\/menu-figure-item.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/Code\/templates\/kit\/menu-list-item-conditional.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/menu-list-item-conditional.kit",
+		"outputAbbreviatedPath": "\/Code\/chunks\/menu-list-item-conditional.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/Code\/templates\/kit\/menu-list-item.kit": {
 		"fileType": 2048,
