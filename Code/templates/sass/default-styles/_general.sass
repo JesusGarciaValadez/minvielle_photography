@@ -7,7 +7,8 @@ header
     clear: right
     height: 77px
     position: relative
-    h1
+    z-index: 1
+    h2
         @extend .mariano-dominguez-minvielle-logo
         display: inline-block
         float: left
@@ -34,6 +35,7 @@ nav
             box-sizing: border-box
             float: left
             padding: 0 20px
+            position: relative
             &:first-child
                 padding: 0 20px 0 0
             &:last-child
@@ -46,8 +48,53 @@ nav
                 text-transform: uppercase
                 &:hover,&.active
                     color: $text-active
+                &:hover ~ ul
+                    display: block
+                    transition: all 1s ease 1s
             a[title="Mariano Dominguez Minvielle"]
                 color: $image-border
+            ul
+                background-color: $submenu-color
+                border-radius: 5px
+                box-sizing: border-box
+                display: none
+                left: 0
+                padding: 20px 10px 10px
+                position: absolute
+                transition: all 1s ease 1s
+                top: 40px
+                width: 180px
+                &:hover
+                    display: block
+                    transition: all 1s ease 1s
+                li
+                    border-bottom: 1px solid $submenu-separator
+                    border-right: 0 none transparent
+                    clear: both
+                    display: block
+                    float: auto
+                    padding: 5px 0 5px 15px
+                    width: 100%
+                    &:nth-child( 3n + 1 )
+                        padding: 5px 0 5px 15px !important
+                    &:nth-child( 2n )
+                        padding: 0 0 5px 15px
+                    &.triangle
+                        border-bottom: 0 none transparent
+                        height: 30px
+                        left: 0
+                        padding: 0 !important
+                        position: absolute
+                        top: -30px
+                        &:before
+                            @include triangle( transparent, solid, 0, transparent, solid, 15px, $submenu-color, solid, 15px, transparent, solid, 15px )
+                            content: ""
+                            display: block
+                            height: 10px
+                            left: 25px
+                            position: absolute
+                            top: 15px
+                            width: 30px
 footer
     bottom: 5px
     box-sizing: border-box
@@ -83,7 +130,7 @@ footer
         text-align: left
         text-transform: capitalize
     &.sticky
-        position: absolute
+        position: absolute !important
 .desktop
 .mobile
     display: none

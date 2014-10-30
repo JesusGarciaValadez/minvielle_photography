@@ -1,0 +1,20 @@
+                        <li>
+                            <a href="[[++site_url]][[~[[+id]]]]" title="[[+menutitle]]" target="_self">[[+menutitle]]</a>
+                            <ul class="clearfix">
+                                <li class="triangle"></li>
+[[!getResources? 
+    &parents=`2`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE menu-list-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`0`
+    &includeContent=`1`
+    &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
+    &depth=`0`
+    &limit=`0`
+ ]]
+                            </ul>
+                        </li>

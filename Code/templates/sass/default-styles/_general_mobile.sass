@@ -6,7 +6,8 @@ html,body
 header
     height: 45px
     margin: 0 auto 13px
-    h1
+    z-index: 0
+    h2
         background-position: -20px -40px
         background-size: 115% 160%
         width: 154px
@@ -48,12 +49,33 @@ nav
             clear: both
             float: auto
             padding: 15px 20px !important
+            width: 100%
             a
                 @include font-mask( normal, em( 15, 16 ), 1.5em, $font, $text-normal )
                 &:hover,&.active
                     color: $text-active !important
             a[title="Mariano Dominguez Minvielle"]
                 color: $text-normal
+            ul
+                background-color: transparent
+                display: block
+                padding: 20px 0 0
+                position: static
+                width: 100%
+                li
+                    border-bottom: 1px solid $submenu-separator
+                    border-right: 0 none transparent
+                    clear: both
+                    display: block
+                    float: auto
+                    padding: 5px 0 5px 15px !important
+                    width: 100%
+                    &:nth-child( 2n )
+                        padding: 0 0 5px 15px !important
+                    &.triangle
+                        display: none
+                    a
+                        @include font-mask( normal, em( 14, 16 ), 1.5em, $font, $text-normal )
 footer
     height: auto
     padding: 0
