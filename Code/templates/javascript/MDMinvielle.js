@@ -331,6 +331,8 @@
             var windowHeight    = $( window ).innerHeight();
             if ( docHeight <= windowHeight ) {
                 $( 'footer' ).addClass( 'sticky' );
+            } else {
+                $( 'footer' ).removeClass( 'sticky' );
             }
         }
     };
