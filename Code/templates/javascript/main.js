@@ -11,7 +11,7 @@
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
     var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, 
-    maxDeviceWidth = 568, _innerWidth = 0, _innerHeight = 0;
+    maxDeviceWidth = 568, _innerWidth = 0, _innerHeight = 0, touch;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
@@ -35,6 +35,8 @@
         window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
 
         window.isPortable   = isPortable;
+        
+        touch = new Touch();
 
         if ( isPortable ) { //  Si es un móvil...
 
@@ -101,9 +103,9 @@
                 }
             } );
         }
-
+        
         //  Thumbnails de las categorias en el Home
-        if ( $( '.scrollable_categories' ).exists() ) {
+        if ( $( '.scrollable_categories' ).exists() && typeof( touch ) !== "object" ) {
             MDMinvielle.inicializeCarrousel( '.scrollable_categories', {
                 speed: 300,
                 circular: false,
