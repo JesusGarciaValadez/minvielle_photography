@@ -40,25 +40,29 @@
             aside
                 box-sizing: border-box
                 float: right
-                min-height: 625px
-                position: relative
+                position: static
                 width: 45%
-                .bigger
-                    box-sizing: border-box
-                    display: none
-                    position: absolute
-                    right: 0
-                    top: 0
+                height: 100% !important
+                .wrapper_photos
+                    height: 47.8102%
+                    position: relative
                     width: 100%
-                    &.active
-                        display: block
-                    img
-                        @include putYellowBorder
+                    .bigger
+                        box-sizing: border-box
+                        display: none
+                        position: absolute
+                        right: 0
+                        top: 0
                         width: 100%
+                        &.active
+                            display: block
+                        img
+                            @include putYellowBorder
+                            width: 100%
                 ul
-                    margin: 0
+                    margin: 30px 0 0
                     padding: 0
-                    position: absolute
+                    position: relative
                     top: 51.2%
                     width: 100%
                     li
