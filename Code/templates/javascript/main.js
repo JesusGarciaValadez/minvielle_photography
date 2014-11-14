@@ -27,7 +27,6 @@
 
     //  When DOM is loaded
     $( function ( ) {
-
         window.navigator.userAgent = userAgent    = ( window.navigator.userAgent );
         //( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
         ( userAgent.indexOf( 'iPhone ' ) || userAgent.indexOf( 'Android' ) ) ? isPortable  = true : isPortable  = false;
@@ -36,7 +35,7 @@
 
         window.isPortable   = isPortable;
         
-        touch = new Touch();
+        touch = ( typeof( Touch ) === "object" ) ? new Touch() : false;
 
         if ( isPortable ) { //  Si es un móvil...
 
@@ -157,15 +156,26 @@
 
         // Control de imágenes para la sección Artista Invitado
         if ( $( '.invited-artist aside' ).exists() ) {
-
+            
+            function alignBigPicture () {
+                var newHeight   = $( 'aside .wrapper_photos .bigger' ).height();
+                $( 'aside .wrapper_photos' ).height( newHeight );
+            };
+            
+            alignBigPicture();
+            
+            $( window ).on( 'resize', function ( e ) {
+                alignBigPicture();
+            } );
+            
             $('aside ul li figure').on('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
                 
                 var related = $( e.currentTarget ).data( 'related' );
-                $( 'aside > figure' ).fadeOut( 150 );
+                $( 'aside > .wrapper_photos figure' ).fadeOut( 150 );
 
-                $( 'aside figure' ).map( function ( index, domElement ) {
+                $( 'aside .wrapper_photos figure' ).map( function ( index, domElement ) {
                     if ( $( domElement ).data( 'position' ) === related ) {
                         $( domElement ).fadeIn( 150 );
                     }
