@@ -61,8 +61,18 @@
             $( 'nav.mobile p' ).on( 'click', function ( e ) {
                 $( 'nav.mobile' ).toggleClass( 'active' );
             } );
+            
+            function resizeMobileMenu () {
+                var _height = $( 'body >div.wrapper' ).height();
+                $( 'body >div.wrapper nav.mobile' ).height( _height );
+            }
+            resizeMobileMenu();
+            
+            $( window ).on( 'resize', function ( e ) {
+                resizeMobileMenu();
+            } );
         }
-
+        
         // Inicialización de carrusel de imágenes en el Home
         if ( $( '.scrollable_main_photography' ).exists() ) {
             MDMinvielle.calculateHeightOfMainCarrusel();
@@ -119,7 +129,7 @@
                 autopause: false
             } );
         }
-
+        
         //  Masonry para las secciones de albumes y categorías
         if ( $( '.category,.album' ).exists() ) {
 
@@ -144,7 +154,7 @@
                 }
             }, 500 );
         }
-
+        
         //  Centrado horizontal de la paginación del blog
         if ( $( '.page-nav' ).exists() ) {
 
@@ -153,7 +163,7 @@
 
             $( '.page-list' ).width( widthOfLists );
         }
-
+        
         // Control de imágenes para la sección Artista Invitado
         if ( $( '.invited-artist aside' ).exists() ) {
             
@@ -182,7 +192,7 @@
                 });
             });
         }
-
+        
         //  Validación del formulario de contacto
         if ( $( '.contact form' ).exists() ) {
 
