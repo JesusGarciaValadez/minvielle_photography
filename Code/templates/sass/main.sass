@@ -1,7 +1,6 @@
 @import "bourbon"
 @import "default-styles/_normalize"
 
-<<<<<<< HEAD
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -14,9 +13,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 @import "default-styles/_boilerplate_styles"
-=======
-@import "default-styles/_boilerplate_basics"
->>>>>>> 82abf5482d6a94427c506cdb03a271167e4a0cdd
 
 /* ==========================================================================
    Author's custom styles
@@ -39,10 +35,6 @@
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-<<<<<<< HEAD
-=======
-
->>>>>>> 82abf5482d6a94427c506cdb03a271167e4a0cdd
 @import "default-styles/_helper_classes"
 
 /* ==========================================================================
@@ -77,12 +69,15 @@
 @media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
     /* Style adjustments for viewports that meet the condition */
     @import "default-styles/_general_mobile_lanscape"
+    
+    @import "custom-styles/mobile/category_mobile_landscape"
 
 /* ==========================================================================
    iPad
    ========================================================================== */
 @media only screen and (min-width: em( 539, 16 )) and (max-width: em( 1024, 16 ))
     @import "default-styles/_general_tablet"
+    
     @import "custom-styles/tablet/home_tablet"
         
 /* ==========================================================================
@@ -112,19 +107,9 @@
     @import "custom-styles/desktop/contact_hd"
     @import "custom-styles/desktop/category_hd"
     
-/* ==========================================================================
-   Print Stylesheet
-   ========================================================================== */
-@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi)
-    /* Style adjustments for high resolution devices */
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
-<<<<<<< HEAD
-=======
-
-@media print
->>>>>>> 82abf5482d6a94427c506cdb03a271167e4a0cdd
-    @import "default-styles/_print_stylesheet"
+@import "default-styles/_print_stylesheet"
