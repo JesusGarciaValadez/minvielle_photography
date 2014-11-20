@@ -7,19 +7,39 @@ header
     clear: right
     height: 77px
     position: relative
+    transition: all 0.5s ease
     z-index: 1
     h2
-        @extend .mariano-dominguez-minvielle-logo
+        //@extend .mariano-dominguez-minvielle-logo
         display: inline-block
         float: left
         height: 100%
         margin: 0
         text-indent: -2000em
+        transition: all 0.5s ease
+        width: 35%
         a
             color: transparent
             display: block
             height: 100%
+            position: relative
             width: 100%
+            span
+                display: inline-block
+                height: auto
+                float: left
+                left: 0
+                position: absolute
+                top: 0
+                width: 100%
+                z-index: 0
+            img
+                height: auto
+                left: 0
+                top: 0
+                position: absolute
+                width: 100%
+                z-index: 1
 nav
     clear: right
     float: right
