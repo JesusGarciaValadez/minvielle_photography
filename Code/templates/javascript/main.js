@@ -80,9 +80,9 @@
                 var thumbnailsHeight    = $( '.items_categories' ).height();
                 $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
             }
-
+            
             MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
-                speed: 300,
+                speed: 600,
                 circular: true,
                 keyboard: false,
                 items: '.items_glympse',
@@ -99,17 +99,20 @@
                 autoplay: true,
                 autopause: false
             } );
-
+            
+            MDMinvielle.sortScrollNavigator();
             $( window ).on( 'resize', function ( e ) {
                 e.stopPropagation();
                 e.preventDefault();
-
+                
                 MDMinvielle.calculateHeightOfMainCarrusel();
-
+                
                 if ( window.innerWidth <= 580 ) {
                     var thumbnailsHeight    = $( '.items_categories' ).height();
                     $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
                 }
+                
+                MDMinvielle.sortScrollNavigator();
             } );
         }
         

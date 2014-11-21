@@ -326,7 +326,7 @@
          */
         //  !Ayuda a emplazar el footer si el contenido no es lo 
         //  suficientemente grande para llenar la pantalla
-        stickyFooter:   function () {
+        stickyFooter:           function () {
             var docHeight       = $( '.wrapper' ).height();
             var windowHeight    = $( window ).innerHeight();
             if ( docHeight <= windowHeight ) {
@@ -334,6 +334,13 @@
             } else {
                 $( 'footer' ).removeClass( 'sticky' );
             }
+        },
+        sortScrollNavigator:    function () {
+            var _width      = $( '.scrollable_main_photography .navigation' ).width();
+            var _marginLeft = _width / 2;
+            $( '.scrollable_main_photography .navigation' ).css( {
+                marginLeft: '-' + _marginLeft + 'px'
+            } )
         }
     };
 

@@ -22565,9 +22565,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/javascript\/main.js",
-		"outputAbbreviatedPath": "\/Code\/templates\/main-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
@@ -24646,6 +24646,78 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/components\/getresources\/snippet.getresources.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snfirst.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snfirst.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snlast.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snlast.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snnext.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snnext.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snprev.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snprev.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snrow.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snrow.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/chunks\/snself.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/chunks\/snself.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/elements\/snippets\/siblingnav.snippet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/elements\/snippets\/siblingnav.snippet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/components\/siblingnav\/model\/siblingnav\/siblingnav.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/components\/siblingnav\/model\/siblingnav\/siblingnav.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -45686,6 +45758,1410 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/packages\/gallery-1.7.0-pl\/manifest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/manifest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/connector.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/connector.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/fileuploader.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/fileuploader.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/index.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/mgr.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/mgr.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/web.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/css\/web.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/images\/album-empty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10099,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/images\/album-empty.jpg",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/images\/album-empty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/gallery.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/sections\/album\/update.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/sections\/album\/update.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/sections\/update-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/sections\/home.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/sections\/home.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/home-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tree.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tree.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/tree-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/gal.browser.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/gal.browser.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/gal.browser-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/galtv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/galtv.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/galtv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/Spotlight.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/tv\/Spotlight.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/Spotlight-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/utils\/ddview.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/utils\/ddview.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/ddview-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/utils\/fileuploader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/utils\/fileuploader.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/fileuploader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.items.view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.items.view.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album.items.view-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.panel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.panel.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album.panel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.tree.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/album.tree.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album.tree-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/albums.grid.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/album\/albums.grid.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/albums.grid-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/home.panel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/widgets\/home.panel.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/js\/mgr\/home.panel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/basic.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/basic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/black.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/black.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/caption.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3542,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/caption.png",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/caption.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-1.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-1.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-3.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-3.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-4.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-4.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-5.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/galleriffic-5.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/jush.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/jush.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/white.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/css\/white.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-4.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-4.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-5.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/example-5.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery-1.3.2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery-1.3.2.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/jquery-1.3.2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.galleriffic.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.galleriffic.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/jquery.galleriffic-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.history.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.history.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/jquery.history-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.opacityrollover.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jquery.opacityrollover.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/jquery.opacityrollover-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jush.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/js\/jush.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/galleriffic20\/jush-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/css\/slimbox2-rtl.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/css\/slimbox2-rtl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/css\/slimbox2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/css\/slimbox2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/android-market.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/android-market.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/android-market-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/autoactivation.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/autoactivation.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/autoactivation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/fix-urls.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/fix-urls.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/fix-urls-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/flickr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/flickr.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/flickr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/picasaweb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/extra\/picasaweb.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/picasaweb-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/js\/slimbox2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/js\/slimbox2.js",
+		"outputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/0\/gallery\/packages\/slimbox\/slimbox2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/controllers\/album\/update.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/controllers\/album\/update.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/controllers\/home.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/controllers\/home.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/plugins\/gallerycustomtv.plugin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/plugins\/gallerycustomtv.plugin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.gallery.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.gallery.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.galleryalbums.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.galleryalbums.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.galleryitem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/snippets\/snippet.galleryitem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/input\/galleryalbumlist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/input\/galleryalbumlist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/input\/galleryitem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/input\/galleryitem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/inputoptions\/galleryalbumlist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/inputoptions\/galleryalbumlist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/output\/galleryitem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/output\/galleryitem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/properties\/galleryitem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/elements\/tv\/properties\/galleryitem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/index.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/index.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/properties.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/properties.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/tvprops.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/tvprops.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/web.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/cs\/web.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/properties.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/properties.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/slimbox.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/slimbox.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/source.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/source.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/tvprops.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/tvprops.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/web.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/de\/web.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/properties.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/properties.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/slimbox.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/slimbox.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/source.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/source.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/tvprops.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/tvprops.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/web.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/en\/web.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/fr\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/properties.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/properties.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/tvprops.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/tvprops.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/web.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/nl\/web.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/default.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/default.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/galleriffic.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/galleriffic.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/tv.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/lexicon\/ru\/tv.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbum.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbum.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbumcontext.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbumcontext.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbumitem.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galalbumitem.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galitem.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galitem.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/gallery.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/gallery.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galleryalbumsmediasource.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galleryalbumsmediasource.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galphpthumb.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galphpthumb.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galtag.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/galtag.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/import\/galimport.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/import\/galimport.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/import\/galzipimport.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/import\/galzipimport.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/metadata.mysql.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/metadata.mysql.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbum.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbum.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbum.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbum.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumcontext.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumcontext.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumcontext.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumcontext.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumitem.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumitem.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumitem.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galalbumitem.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galitem.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galitem.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galitem.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galitem.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galleryalbumsmediasource.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galleryalbumsmediasource.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galleryalbumsmediasource.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galleryalbumsmediasource.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galmediasource.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galmediasource.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galmediasource.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galmediasource.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galtag.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galtag.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galtag.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/mysql\/galtag.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/galleriffic.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/galleriffic.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/galleryplugin.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/galleryplugin.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/slimbox.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/plugins\/slimbox.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/request\/galconnectorrequest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/request\/galconnectorrequest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/request\/galcontrollerrequest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/gallery\/request\/galcontrollerrequest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/schema\/build.schema.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/model\/schema\/build.schema.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/create.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/create.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/get.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/get.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/getlist.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/getlist.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/getnodes.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/getnodes.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/remove.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/remove.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/setcoveritem.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/setcoveritem.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/sort.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/sort.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/update.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/update.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/uploadcover.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/album\/uploadcover.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/ajaxupload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/ajaxupload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/batchupload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/batchupload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/getlist.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/getlist.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/remove.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/remove.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/removemultiple.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/removemultiple.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/sort.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/sort.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/update.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/update.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/upload.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/upload.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/zipupload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/mgr\/item\/zipupload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/web\/phpthumb.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/modCategory\/52c0866819526cbf263706f649648c3a\/1\/gallery\/processors\/web\/phpthumb.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/preserved.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/preserved.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/gallery-1.7.0-pl\/setup-options.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/gallery-1.7.0-pl\/setup-options.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/packages\/getpage-1.2.4-pl\/manifest.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -45736,6 +47212,87 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/packages\/getresources-1.6.1-pl\/modSnippet\/8602b11ae850890acd8e9af0bb1862f7\/0\/getresources\/snippet.getresources.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/manifest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/manifest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snfirst.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snfirst.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snlast.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snlast.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snnext.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snnext.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snprev.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snprev.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snrow.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snrow.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snself.chunk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/chunks\/snself.chunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/snippets\/siblingnav.snippet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/elements\/snippets\/siblingnav.snippet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/model\/siblingnav\/siblingnav.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/siblingnav-1.1.0-pl\/modCategory\/116fa2af7278c53864ecedadc27eb065\/0\/siblingnav\/model\/siblingnav\/siblingnav.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -64458,7 +66015,7 @@
 	"iconImageName": "meme-lotr"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -64592,7 +66149,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:80",
+	"externalServerAddress": "http:\/\/localhost:80\/minvielle_photography\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
