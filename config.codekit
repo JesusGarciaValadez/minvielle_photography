@@ -22752,7 +22752,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/album-figure-item.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/album-figure-item.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/album-figure-item.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -22779,9 +22779,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/blog-article-item.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/blog-article-item.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/blog-article-item.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/Code\/templates\/kit\/blog.kit": {
 		"fileType": 2048,
@@ -22833,9 +22833,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/category-figure-item.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/category-figure-item.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/category-figure-item.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/Code\/templates\/kit\/category.kit": {
 		"fileType": 2048,
@@ -22905,9 +22905,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/invited-artist-item.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/invited-artist-item.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/invited-artist-item.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/Code\/templates\/kit\/invited-artist.kit": {
 		"fileType": 2048,
@@ -22932,18 +22932,18 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/menu-list-item-conditional.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/menu-list-item-conditional.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/menu-list-item-conditional.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/Code\/templates\/kit\/menu-list-item.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/kit\/menu-list-item.kit",
-		"outputAbbreviatedPath": "\/Code\/templates\/menu-list-item.html",
+		"outputAbbreviatedPath": "\/Code\/chunks\/menu-list-item.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/Code\/templates\/kit\/photography.kit": {
 		"fileType": 2048,
@@ -23468,15 +23468,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/Code\/templates\/sass\/default-styles\/_general_tablet.sass": {
+	"\/Code\/templates\/sass\/default-styles\/_general_Tablet.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/sass\/default-styles\/_general_tablet.sass",
-		"outputAbbreviatedPath": "\/Code\/templates\/sass\/_general_tablet.css",
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/default-styles\/_general_Tablet.sass",
+		"outputAbbreviatedPath": "\/Code\/templates\/sass\/_general_Tablet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
