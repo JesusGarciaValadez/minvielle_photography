@@ -8469,7 +8469,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_05.jpg": {
 		"fileType": 16384,
@@ -8480,7 +8480,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_05.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_07.jpg": {
 		"fileType": 16384,
@@ -8491,7 +8491,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_09.jpg": {
 		"fileType": 16384,
@@ -8502,7 +8502,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_09.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_11.jpg": {
 		"fileType": 16384,
@@ -8513,7 +8513,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_16.jpg": {
 		"fileType": 16384,
@@ -8524,7 +8524,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_16.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_17.jpg": {
 		"fileType": 16384,
@@ -8535,7 +8535,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_17.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/album\/album-1\/web13_album_19.jpg": {
 		"fileType": 16384,
@@ -8544,6 +8544,622 @@
 		"initialSize": 85800,
 		"inputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_19.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/album\/album-1\/web13_album_19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Atlas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01249e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Atlas.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Atlas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Black and Park.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 731523,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Black and Park.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Black and Park.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Blured Skyline 1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59368,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Blured Skyline 2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 592749,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Blured Skyline 3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461925,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Blured Skyline 4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 606556,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 4.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Blured Skyline 4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Boat Skyline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 596828,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Boat Skyline.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Boat Skyline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/BoatÂ´s in park.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 771353,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/BoatÂ´s in park.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/BoatÂ´s in park.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Bow Bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0861e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Bow Bridge.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Bow Bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Boy with Boat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 772185,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Boy with Boat.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Boy with Boat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Brooklyn View.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 670185,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Brooklyn View.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Brooklyn View.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Carriage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.37793e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Carriage.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Carriage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Central Bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.33441e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Bridge.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Central Park.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.16461e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Park.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Park.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Central Stairs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554951,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Stairs.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Stairs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Central Tickets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 550669,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Tickets.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Central Tickets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Chrysler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 725481,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Chrysler.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Chrysler.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/City Flora.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03822e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/City Flora.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/City Flora.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/ClubHouse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 852536,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/ClubHouse.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/ClubHouse.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Coexisting.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 659575,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Coexisting.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Coexisting.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 527144,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Deep.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Empire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 670347,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Empire.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Empire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/from Brooklyn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 579682,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/from Brooklyn.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/from Brooklyn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Girl with Boat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 792491,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Girl with Boat.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Girl with Boat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Grand central.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 855073,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Grand central.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Grand central.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Grand.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 574397,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Grand.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Grand.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Highline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 876787,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Highline.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Highline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/I hope NY.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 717814,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/I hope NY.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/I hope NY.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/I Love NY.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 788853,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/I Love NY.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/I Love NY.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Lake Park.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 999897,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Lake Park.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Lake Park.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Meat Packing Line.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 819982,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Meat Packing Line.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Meat Packing Line.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Memorial Zero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393252,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Memorial Zero.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Memorial Zero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Nightline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 714108,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Nightline.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Nightline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/NY Reflex.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 904948,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/NY Reflex.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/NY Reflex.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/NY Skyline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 762750,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/NY Skyline.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/NY Skyline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/offering.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 339739,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/offering.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/offering.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/On the Go.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/On the Go.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/On the Go.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/album\/NewYork\/Park Musicians.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 842939,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Park Musicians.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Park Musicians.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Photoschool.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 801628,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Photoschool.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Photoschool.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Pink Fairy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 408722,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Pink Fairy.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Pink Fairy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Red Door.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 945196,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Red Door.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Red Door.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Red Motion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 843232,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Red Motion.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Red Motion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/RedHeroes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 688823,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/RedHeroes.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/RedHeroes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Rocks View.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435290,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Rocks View.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Rocks View.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Sad Corner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 686879,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sad Corner.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sad Corner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Sax and White.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380572,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sax and White.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sax and White.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/sax Tunnel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 748858,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/sax Tunnel.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/sax Tunnel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Sewer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 908996,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sewer.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Sewer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Tears Fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21306e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Tears Fall.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Tears Fall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/The One.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 525889,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/The One.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/The One.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Time Square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 963465,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Time Square.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Time Square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Top Rock.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 616574,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Top Rock.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Top Rock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Twilight View.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 506158,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Twilight View.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Twilight View.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/UnderHall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 782174,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/UnderHall.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/UnderHall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Vanishing Point.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0298e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Vanishing Point.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Vanishing Point.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/album\/NewYork\/Wet Flag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 677364,
+		"inputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Wet Flag.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/album\/NewYork\/Wet Flag.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8570,6 +9186,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/carrousel\/04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 615900,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 505352,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/05.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 626984,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/06.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591396,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/07.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364896,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/08.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/ny_one.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31856,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_one.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_one.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/ny_sax.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 439094,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_sax.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_sax.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/carrousel\/ny_under.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09078e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_under.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/ny_under.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/carrousel\/place-des-vosses-hd.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8588,6 +9292,105 @@
 		"initialSize": 199558,
 		"inputAbbreviatedPath": "\/assets\/img\/carrousel\/place-des-vosses.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/carrousel\/place-des-vosses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_a.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2928,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_a.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_b.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2854,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_b.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_l.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1986,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_l.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_l.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_m.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3050,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_m.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_n.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2669,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_n.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_p.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2453,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_p.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_p.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_t.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2022,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_t.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_v.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2882,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_v.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_v.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/_w.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3554,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_w.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/_w.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -8698,6 +9501,28 @@
 		"initialSize": 11301,
 		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/nature.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/nature.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/ny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46480,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/ny.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/ny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/category-thumbnails\/ny02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43675,
+		"inputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/ny02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/category-thumbnails\/ny02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -23301,6 +24126,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/mobile\/invited_artists_mobile.sass",
 		"outputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/invited_artists_mobile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/Code\/templates\/sass\/custom-styles\/mobile\/photography_mobile.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/mobile\/photography_mobile.sass",
+		"outputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/photography_mobile.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
