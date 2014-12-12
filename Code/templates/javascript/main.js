@@ -10,7 +10,7 @@
  */
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, 
+    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320,
     maxDeviceWidth = 568, _innerWidth = 0, _innerHeight = 0, touch;
 
     if( 'localStorage' in window && window.localStorage !== null ) {
@@ -34,7 +34,7 @@
         window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
 
         window.isPortable   = isPortable;
-        
+
         touch = ( typeof( Touch ) === "object" ) ? new Touch() : false;
 
         if ( isPortable ) { //  Si es un móvil...
@@ -61,18 +61,18 @@
             $( 'nav.mobile p' ).on( 'click', function ( e ) {
                 $( 'nav.mobile' ).toggleClass( 'active' );
             } );
-            
+
             function resizeMobileMenu () {
                 var _height = $( 'body >div.wrapper' ).height();
                 $( 'body >div.wrapper nav.mobile' ).height( _height );
             }
             resizeMobileMenu();
-            
+
             $( window ).on( 'resize', function ( e ) {
                 resizeMobileMenu();
             } );
         }
-        
+
         // Inicialización de carrusel de imágenes en el Home
         if ( $( '.scrollable_main_photography' ).exists() ) {
             MDMinvielle.calculateHeightOfMainCarrusel();
@@ -80,17 +80,17 @@
                 var thumbnailsHeight    = $( '.items_categories' ).height();
                 $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
             }
-            
-            MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
+
+            var _carrusel    = MDMinvielle.inicializeCarrousel( '.scrollable_main_photography', {
                 speed: 600,
                 circular: true,
                 keyboard: false,
                 items: '.items_glympse',
-                next: '',
-                prev: ''
+                next: '.next-control',
+                prev: '.prev-control'
             }, {
                 activeClass: "active",
-                navi: ".navigation",
+                navi: "",
                 naviItem: "a",
                 indexed: false
             }, {
@@ -99,23 +99,49 @@
                 autoplay: true,
                 autopause: false
             } );
-            
+
+            var carrusel     = _carrusel.data( 'scrollable' );
+
+            //  Botón play
+            $( '.navigation ul li' ).on( 'click', '.play', function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+
+                carrusel.play();
+                $( e.currentTarget ).toggleClass( 'play' )
+                                    .toggleClass( 'pause' )
+                                    .attr( 'title', 'Play' )
+                                    .text( 'Play' );
+            } );
+
+            //  Botón pausa
+            $( '.navigation ul li' ).on( 'click', '.pause', function ( e ) {
+                e.preventDefault;
+                e.stopPropagation;
+
+                carrusel.pause();
+                $( e.currentTarget ).toggleClass( 'play' )
+                                    .toggleClass( 'pause' )
+                                    .attr( 'title', 'Pausa' )
+                                    .text( 'Pausa' );
+            } );
+
             MDMinvielle.sortScrollNavigator();
             $( window ).on( 'resize', function ( e ) {
                 e.stopPropagation();
                 e.preventDefault();
-                
+
                 MDMinvielle.calculateHeightOfMainCarrusel();
-                
+
                 if ( window.innerWidth <= 580 ) {
                     var thumbnailsHeight    = $( '.items_categories' ).height();
                     $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
                 }
-                
+
                 MDMinvielle.sortScrollNavigator();
             } );
         }
-        
+
         //  Thumbnails de las categorias en el Home
         if ( $( '.scrollable_categories' ).exists() && typeof( touch ) !== "object" ) {
             MDMinvielle.inicializeCarrousel( '.scrollable_categories', {
@@ -132,7 +158,7 @@
                 autopause: false
             } );
         }
-        
+
         //  Masonry para las secciones de albumes y categorías
         if ( $( '.category,.album' ).exists() ) {
 
@@ -157,7 +183,7 @@
                 }
             }, 500 );
         }
-        
+
         //  Centrado horizontal de la paginación del blog
         if ( $( '.page-nav' ).exists() ) {
 
@@ -166,25 +192,25 @@
 
             $( '.page-list' ).width( widthOfLists );
         }
-        
+
         // Control de imágenes para la sección Artista Invitado
         if ( $( '.invited-artist aside' ).exists() ) {
-            
+
             function alignBigPicture () {
                 var newHeight   = $( 'aside .wrapper_photos .bigger' ).height();
                 $( 'aside .wrapper_photos' ).height( newHeight );
-            };
-            
+            }
+
             alignBigPicture();
-            
+
             $( window ).on( 'resize', function ( e ) {
                 alignBigPicture();
             } );
-            
+
             $('aside ul li figure').on('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
-                
+
                 var related = $( e.currentTarget ).data( 'related' );
                 $( 'aside > .wrapper_photos figure' ).fadeOut( 150 );
 
@@ -195,7 +221,7 @@
                 });
             });
         }
-        
+
         //  Validación del formulario de contacto
         if ( $( '.contact form' ).exists() ) {
 
@@ -216,12 +242,12 @@
                 name: "Please, write your name.",
                 email: "Please, write your email.",
                 subject: "Please, write a subject.",
-                required: "This file is required", 
-                minlength: "Por favor, haga su respuesta más amplia.", 
-                maxlength: "Por favor, acorte su respuesta", 
+                required: "This file is required",
+                minlength: "Por favor, haga su respuesta más amplia.",
+                maxlength: "Por favor, acorte su respuesta",
                 email: "Write a valid email",
-                number: "Escriba solo números", 
-                digits: "Escriba solo números", 
+                number: "Escriba solo números",
+                digits: "Escriba solo números",
             };
             submitFunction = function( form ){
                 // Form submit
@@ -234,25 +260,25 @@
                     },
                     //  !Function for handle data from server
                     success: function showResponseLogin( responseText, statusText, xhr, form ) {
-                        
+
                         //console.log(responseText.success);
                         responseText    = $.parseJSON( responseText );
-                        
+
                         if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
-                            
+
                             $( 'form' ).fadeOut( 300, function () {
-                                
+
                                 var _finished   = '<p class="thanks">Thank you for answer our form.</p>';
-                                
+
                                 $( 'form fieldset' ).first()
                                                     .empty()
                                                     .append( _finished );
                                 $( 'form' ).fadeIn( 150 );
-                            } )
+                            } );
                         }
-                    }, 
-                    resetForm: false, 
-                    clearForm: false, 
+                    },
+                    resetForm: false,
+                    clearForm: false,
                     //   If something is wrong
                     error: function( jqXHR, textStatus, errorThrown ) {
                         //console.log(textStatus);
@@ -261,18 +287,18 @@
                             $( '.alert_box' ).addClass( 'error' );
                             var _title  = 'Error';
                             var _markup = '<p></p>';
-                            AxaS.openAlert( _title, _markup );
+                            MDMinvielle.openAlert( _title, _markup );
                         } else {
-                            alert( 'There\'s an error sending the information. Can you please try again?' );
+                            window.alert( 'There\'s an error sending the information. Can you please try again?' );
                         }
-                    }, 
+                    },
                     cache: false
                 });
             };
             invalidFunction    = function( form, validator ) {
                 var errors = validator.numberOfInvalids();
                 if ( errors ) {
-                    var message = errors == 1 ? 'You missed 1 field. It has been highlighted' : 'You missed ' + errors + ' fields. They have been highlighted';
+                    var message = ( errors === 1 ) ? 'You missed 1 field. It has been highlighted' : 'You missed ' + errors + ' fields. They have been highlighted';
                     //message.appendTo( .parents( '.question_wrapper' )
                     //.find( 'p' ) );
                 }
@@ -280,16 +306,16 @@
 
             MDMinvielle.validateContactForm ( rules, messages, submitFunction, invalidFunction );
         }
-        
-        //  Emplaza el footer en la parte baja del browser si el contenido no es 
+
+        //  Emplaza el footer en la parte baja del browser si el contenido no es
         //  lo suficientemente grande para llenar la pantalla.
         if ( $( '.wrapper' ).exists() ) {
             MDMinvielle.stickyFooter();
-            
+
             $( window ).on( 'resize', function ( e ) {
                 e.stopPropagation();
                 e.preventDefault();
-                
+
                 MDMinvielle.stickyFooter();
             } );
         }

@@ -9835,6 +9835,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/home\/arrow-left-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 311,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/arrow-left-hover.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/arrow-left-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/arrow-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 374,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/arrow-left.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/arrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/arrow-right-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/arrow-right-hover.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/arrow-right-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/arrow-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 379,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/arrow-right.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/home\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9941,6 +9985,50 @@
 		"initialSize": 9709,
 		"inputAbbreviatedPath": "\/assets\/img\/home\/mariano-dominguez-minvielle-logo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/home\/mariano-dominguez-minvielle-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/pause-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/pause-hover.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/pause-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/pause.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/pause.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/pause.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/play-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 495,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/play-hover.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/play-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/home\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 560,
+		"inputAbbreviatedPath": "\/assets\/img\/home\/play.png",
+		"outputAbbreviatedPath": "\/assets\/img\/home\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -24309,15 +24397,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/Code\/templates\/sass\/default-styles\/_general_Tablet.sass": {
+	"\/Code\/templates\/sass\/default-styles\/_general_tablet.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/sass\/default-styles\/_general_Tablet.sass",
-		"outputAbbreviatedPath": "\/Code\/templates\/sass\/_general_Tablet.css",
+		"inputAbbreviatedPath": "\/Code\/templates\/sass\/default-styles\/_general_tablet.sass",
+		"outputAbbreviatedPath": "\/Code\/templates\/sass\/_general_tablet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
