@@ -5,19 +5,21 @@ html,body
     width: 100%
 header
     clear: right
-    height: 77px
+    height: 7.512195122vw
     position: relative
     transition: all 0.5s ease
     z-index: 1
     h2
-        //@extend .mariano-dominguez-minvielle-logo
-        display: inline-block
-        float: left
-        height: 100%
-        margin: 0
+        bottom: 0
+        display: block
+        height: 4.0975609756vw
+        left: 0
+        margin: ( -4.0975609756vw / 2 ) auto 0
+        position: absolute
         text-indent: -2000em
         transition: all 0.5s ease
-        width: 35%
+        top: 50%
+        width: 19.707317073vw
         a
             color: transparent
             display: block
@@ -36,7 +38,6 @@ header
             img, svg
                 height: 100% !important
                 left: 0
-                max-width: 60%
                 top: 0
                 position: absolute
                 width: 100%
@@ -62,6 +63,10 @@ nav
             &:last-child
                 border-right: 0 none transparent
                 padding: 0 0 0 20px
+                a
+                    border: 1px solid #e2de37
+                    border-radius: 4px
+                    padding: 7px
             a
                 @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
                 text-align: center
