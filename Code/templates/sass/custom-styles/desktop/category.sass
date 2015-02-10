@@ -2,12 +2,15 @@
     .wrapper
         section.central
             margin-bottom: 10px
+            .title
+                display: flex
+                flex-flow: row wrap
+                justify-content: space-around
+                width: 100%
             h1, h2
                 @include font-mask( normal, em( 30, 16  ), 1.5em, $font, $image-border )
                 margin: 0
                 text-transform: uppercase
-                float: left
-                width: 50%
             h2
                 text-align: right
             .masonry
@@ -38,3 +41,9 @@
 
                             figcaption
                                 display: block !important
+.category
+    .wrapper
+        section.central
+            h1, h2
+                margin: auto
+                width: 50%

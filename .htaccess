@@ -237,11 +237,11 @@ AddDefaultCharset utf-8
 
 # Option 1: rewrite www.example.com → example.com
 
-<IfModule mod_rewrite.c>
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
-</IfModule>
+#<IfModule mod_rewrite.c>
+#    RewriteCond %{HTTPS} !=on
+#    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+#</IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -452,7 +452,7 @@ FileETag None
     ExpiresDefault                                      "access plus 1 month"
 
   # CSS
-    ExpiresByType text/css                              "access plus 1 year"
+    ExpiresByType text/css                              "access plus 0 seconds"
 
   # Data interchange
     ExpiresByType application/json                      "access plus 0 seconds"
@@ -469,7 +469,7 @@ FileETag None
     ExpiresByType text/html                             "access plus 0 seconds"
 
   # JavaScript
-    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/javascript                "access plus 0 seconds"
 
   # Manifest files
     ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
@@ -619,8 +619,8 @@ RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 # For servers that support output compression, you should pick up a bit of
 # speed by un-commenting the following lines.
 
-#php_flag zlib.output_compression On
-#php_value zlib.output_compression_level 5
+php_flag zlib.output_compression On
+php_value zlib.output_compression_level 5
 
 # The following directives stop screen flicker in IE on CSS rollovers. If
 # needed, un-comment the following rules. When they're in place, you may have
