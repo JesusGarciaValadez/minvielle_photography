@@ -1,0 +1,32 @@
+<!--@import head-->
+    <body class="page suscribe">
+<!--@import svgMenu-->
+        <div class="wrapper">
+<!--@import header-->
+
+            <section class="central">
+                <h1>[[*pagetitle]]</h1>
+<!--@import breadcrumbs_blog-->
+                <section>
+                    [[*content]]
+                    <form action="[[++site_url]]Code/snippets/controller.php?action=suscribe" method="post" accept-charset="utf-8" class="clearfix">
+                        <fieldset>
+                            <div class="input text clearfix">
+                                <input type="text" name="name" value="" placeholder="" required="true">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input text clearfix">
+                                <input type="email" name="email" value="" placeholder="" required="true">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input submit clearfix">
+                                <input type="submit" value="OK" />
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </section>
+<!--@import footer-->
+
+        </div>
+<!--@import html_end-->
