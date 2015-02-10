@@ -2,10 +2,14 @@
     .wrapper
         section.central
             margin-bottom: 10px
-            h1
+            h1, h2
                 @include font-mask( normal, em( 30, 16  ), 1.5em, $font, $image-border )
                 margin: 0
                 text-transform: uppercase
+                float: left
+                width: 50%
+            h2
+                text-align: right
             .masonry
                 display: block
                 margin: 0 auto
