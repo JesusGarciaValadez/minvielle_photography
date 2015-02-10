@@ -1,0 +1,67 @@
+.suscribe
+    .wrapper
+        section.central
+            h1
+                @include font-mask( normal, em( 30, 16  ), 1.5em, $font, $image-border )
+                clear: both
+                margin: 0 0 5px
+                text-transform: uppercase
+            section
+                p
+                    @include font-mask( normal, 1.4634146341vw, 1.5em, $font, $text_normal )
+                    display: block
+                    margin: 1.5609756098vw auto 3.9024390244vw
+                    text-align: center
+                    width: 53.658536585vw
+                    &.thanks
+                        color: $text_active
+                form
+                    display: block
+                    margin: 0 auto
+                    width: 53.658536585vw
+                    fieldset
+                        box-sizing: border-box
+                        p
+                            color: $white_color
+                            text-align: center
+                            &.thanks
+                                color: $text_active
+                        .input
+                            clear: both
+                            display: block
+                            margin: 0 0 40px
+                            input[type="text"], input[type="email"], textarea
+                                @include font-mask( normal, 1.4634146341vw, 1em, $font, $text_normal )
+                                background-color: transparent
+                                border: 0 none transparent
+                                border-bottom: 2px solid #4B4B4B
+                                box-sizing: border-box
+                                float: left
+                                padding: 3px 10px
+                                width: 85%
+                                &.error
+                                    box-shadow: 0 0 2px 1px #BB1111
+                                    &:focus
+                                        box-shadow: 0 0 2px 1px #782121
+                            label
+                                @include font-mask( normal, 1.4634146341vw, 1em, $font, $white_color )
+                                float: right
+                                margin: 0 0 0 5px
+                                width: 13%
+                                &:after
+                                    content: " *"
+                        .text
+                            input[type="text"], input[type="email"]
+                                border-bottom: 2px solid #4B4B4B
+                            label
+                        .submit
+                            display: block
+                            height: 2.9268292683vw  // 30px
+                            margin: 0 auto
+                            width: 7.2195121951vw   // 75px
+                            input[type="submit"]
+                                @include roundedButton( 1.4634146341vw, 0.9756097561vw, 2.9268292683vw, 0.9756097561vw 2.4390243902vw )
+                                background-color: transparent
+                                cursor: pointer
+                                height: 100%
+                                width: 100%
