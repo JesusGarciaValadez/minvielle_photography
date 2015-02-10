@@ -20,11 +20,11 @@
     text:
         indent: $indent
         transform: $transform
-@mixin roundedButton ()
-    @include font-mask( normal, em( 15, 16  ), 1em, $font, $image-border )
-    border-radius: 30px
+@mixin roundedButton ( $fontSize:em( 15, 16  ), $line-height:1em, $borderRadius:30px, $padding:10px 25px )
+    @include font-mask( normal, $fontSize, $line-height, $font, $image-border )
+    border-radius: $borderRadius
     border: 2px solid $image-border
-    padding: 10px 25px
+    padding: $padding
     text-decoration: none
     text-transform: uppercase
 @mixin triangle ( $colorTop, $styleTop, $widthTop, $colorRight, $styleRight, $widthRight, $colorBottom, $styleBottom, $widthBottom, $colorLeft, $styleLeft, $widthLeft )
