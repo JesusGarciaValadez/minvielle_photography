@@ -307,6 +307,87 @@
             MDMinvielle.validateContactForm ( rules, messages, submitFunction, invalidFunction );
         }
 
+        //  Validación del formulario de suscripción
+        if ( $( '.suscribe form' ).exists() ) {
+
+            var rules, messages, submitFunction, invalidFunction;
+            rules       = {
+                name: {
+                    required: true
+                },
+                email: {
+                    email: true,
+                    required: true
+                }
+            };
+            messages    = {
+                name: "Please, write your name.",
+                email: "Please, write your email.",
+                required: "This file is required",
+                minlength: "Por favor, haga su respuesta más amplia.",
+                maxlength: "Por favor, acorte su respuesta",
+                email: "Write a valid email",
+                number: "Escriba solo números",
+                digits: "Escriba solo números",
+            };
+            submitFunction = function( form ){
+                // Form submit
+                $( form ).ajaxSubmit ( {
+                    //    Before submitting the form
+                    beforeSubmit: function showRequestLogin( arr, form, options ) {
+                        if ( $( '.error' ).exists() ) {
+                            $('.error').remove();
+                        }
+                    },
+                    //  !Function for handle data from server
+                    success: function showResponseLogin( responseText, statusText, xhr, form ) {
+
+                        //console.log(responseText.success);
+                        responseText    = $.parseJSON( responseText );
+
+                        if( responseText && ( responseText.success === 'true' || responseText.success === true ) ) {
+
+                            $( 'form' ).fadeOut( 300, function () {
+
+                                var _finished   = '<p class="thanks">Thank you for suscribe.</p>';
+
+                                $( 'form fieldset' ).first()
+                                                    .empty()
+                                                    .append( _finished );
+                                $( 'form' ).fadeIn( 150 );
+                            } );
+                        }
+                    },
+                    resetForm: false,
+                    clearForm: false,
+                    //   If something is wrong
+                    error: function( jqXHR, textStatus, errorThrown ) {
+                        //console.log(textStatus);
+                        //console.log(errorThrown);
+                        if ( $( '.alert_box' ).exists() ) {
+                            $( '.alert_box' ).addClass( 'error' );
+                            var _title  = 'Error';
+                            var _markup = '<p></p>';
+                            MDMinvielle.openAlert( _title, _markup );
+                        } else {
+                            window.alert( 'There\'s an error sending the information. Can you please try again?' );
+                        }
+                    },
+                    cache: false
+                });
+            };
+            invalidFunction    = function( form, validator ) {
+                var errors = validator.numberOfInvalids();
+                if ( errors ) {
+                    var message = ( errors === 1 ) ? 'You missed 1 field. It has been highlighted' : 'You missed ' + errors + ' fields. They have been highlighted';
+                    //message.appendTo( .parents( '.question_wrapper' )
+                    //.find( 'p' ) );
+                }
+            };
+
+            MDMinvielle.validateContactForm ( rules, messages, submitFunction, invalidFunction );
+        }
+
         //  Emplaza el footer en la parte baja del browser si el contenido no es
         //  lo suficientemente grande para llenar la pantalla.
         if ( $( '.wrapper' ).exists() ) {

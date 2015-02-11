@@ -266,7 +266,7 @@
          *  @author: @_Chucho_
          *
          */
-        //  !Validación del formulario de encuesta de Marzo 2014.
+        //  !Validación de los formularios
         validateContactForm:    function ( _rules, _messages, _submitFunction, _invalidFunction ) {
             var formActive = $( 'form' ).validate( {
                 onfocusout: false,
