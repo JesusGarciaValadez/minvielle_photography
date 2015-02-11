@@ -23609,6 +23609,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/snippets\/db\/connection.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/snippets\/db\/connection.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/snippets\/libs\/Common.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -24575,24 +24584,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": false
-		},
-	"\/Code\/templates\/sass\/custom-styles\/suscribe.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/suscribe.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Code\/templates\/sass\/custom-styles\/suscribe_mobile.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/sass\/custom-styles\/suscribe_mobile.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/Code\/templates\/sass\/custom-styles\/tablet\/category_tablet_landscape.sass": {
 		"createSourceMap": 1,

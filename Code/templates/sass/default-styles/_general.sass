@@ -49,6 +49,11 @@ nav
     position: absolute
     right: 0
     top: 50%
+    > ul
+        > li
+            &:last-child
+                a
+                    border: 1px solid #e2de37
     ul
         margin: 0 auto
         padding: 0
@@ -64,7 +69,6 @@ nav
                 border-right: 0 none transparent
                 padding: 0 0 0 20px
                 a
-                    border: 1px solid #e2de37
                     border-radius: 4px
                     padding: 7px
             a
