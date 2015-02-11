@@ -329,7 +329,7 @@
         //  suficientemente grande para llenar la pantalla
         stickyFooter:           function () {
             var docHeight       = $( '.wrapper' ).height();
-            var windowHeight    = $( window ).innerHeight();
+            var windowHeight    = $( window) .innerHeight() -  30;
             if ( docHeight <= windowHeight ) {
                 $( 'footer' ).addClass( 'sticky' );
             } else {

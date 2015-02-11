@@ -397,7 +397,9 @@
                 e.stopPropagation();
                 e.preventDefault();
 
-                MDMinvielle.stickyFooter();
+                setTimeout( function() {
+                    MDMinvielle.stickyFooter();
+                }, 500 );
             } );
         }
     } );
