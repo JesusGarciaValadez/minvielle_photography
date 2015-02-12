@@ -60,13 +60,14 @@ nav
             position: relative
             &:first-child
                 padding: 0 1.9512195122vw 0 0
-            &:last-child
-                border-right: 0 none transparent
-                padding: 0 0 0 1.9512195122vw
+            &:nth-child( 6 )
                 a
                     border-radius: 0.3902439024vw
                     border: 1px solid #e2de37
                     padding: 0.6829268293vw
+            &:last-child
+                border-right: 0 none transparent
+                padding: 0 0 0 1.9512195122vw
             a
                 @include font-mask( normal, 1.1707317073vw, 1.4634146341vw, $font, $text-normal )
                 text-align: center
