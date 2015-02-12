@@ -49,28 +49,24 @@ nav
     position: absolute
     right: 0
     top: 50%
-    > ul
-        > li
-            &:last-child
-                a
-                    border: 1px solid #e2de37
-    ul
+    >ul
         margin: 0 auto
         padding: 0
-        li
+        >li
             border-right: 1px solid $text-normal
             box-sizing: border-box
             float: left
-            padding: 0 20px
+            padding: 0 1.9512195122vw
             position: relative
             &:first-child
-                padding: 0 20px 0 0
+                padding: 0 1.9512195122vw 0 0
             &:last-child
                 border-right: 0 none transparent
-                padding: 0 0 0 20px
+                padding: 0 0 0 1.9512195122vw
                 a
-                    border-radius: 4px
-                    padding: 7px
+                    border-radius: 0.3902439024vw
+                    border: 1px solid #e2de37
+                    padding: 0.6829268293vw
             a
                 @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
                 text-align: center
@@ -80,72 +76,78 @@ nav
                     color: $text-active
                 &:hover ~ ul
                     display: block
+                    height: auto
                     transition: all 1s ease 1s
             a[title="Mariano Dominguez Minvielle"]
                 color: $image-border
             ul
                 background-color: $submenu-color
-                border-radius: 5px
+                border-radius: 0.487804878vw
                 box-sizing: border-box
                 display: none
+                height: 0
                 left: 0
-                padding: 20px 10px 10px
+                padding: 1.9512195122vw 0.9756097561vw 0.9756097561vw
                 position: absolute
                 transition: all 1s ease 1s
-                top: 40px
-                width: 180px
+                top: 1.9512195122vw
+                width: 17.56097561vw
                 &:hover
                     display: block
+                    height: auto
                     transition: all 1s ease 1s
                 li
                     border-bottom: 1px solid $submenu-separator
                     border-right: 0 none transparent
+                    box-sizing: border-box
                     clear: both
                     display: block
                     float: auto
-                    padding: 5px 0 5px 15px
+                    padding: 0.487804878vw 0 0.487804878vw 1.4634146341vw
                     width: 100%
                     &:nth-child( 3n + 1 )
-                        padding: 5px 0 5px 15px !important
+                        padding: 0.487804878vw 0 0.487804878vw 1.4634146341vw !important
                     &:nth-child( 2n )
-                        padding: 0 0 5px 15px
+                        padding: 0 0 0.487804878vw 1.4634146341vw
+                    &:last-child
+                        border: 0 none transparent
                     &.triangle
                         border-bottom: 0 none transparent
-                        height: 30px
+                        height: 2.9268292683vw
                         left: 0
                         padding: 0 !important
                         position: absolute
-                        top: -30px
+                        top: -2.9268292683vw
                         &:before
-                            @include triangle( transparent, solid, 0, transparent, solid, 15px, $submenu-color, solid, 15px, transparent, solid, 15px )
+                            @include triangle( transparent, solid, 0, transparent, solid, 1.4634146341vw, $submenu-color, solid, 15px, transparent, solid, 15px )
                             content: ""
                             display: block
-                            height: 10px
-                            left: 25px
+                            height: 0.9756097561vw
+                            left: 2.4390243902vw
                             position: absolute
-                            top: 15px
-                            width: 30px
+                            top: 1.4634146341vw
+                            width: 2.9268292683vw
 footer
     bottom: 5px
     box-sizing: border-box
     clear: both
-    height: 30px
+    height: 2.9268292683vw
     left: 50%
     margin: 0 0 0 ( -93.75% / 2 ) !important
     padding: 0
     position: relative
     ul
         float: left
-        margin: 0 10px 0 0
+        margin: 0 0.9756097561vw 0 0
         padding: 0
         li
             float: left
             list-style: none inside
-            margin: 0 2.5px
+            margin: 0 0.243902439vw
             &:first-child
-                margin:  0 2.5px 0 0
+                margin:  0 0.243902439vw 0 0
             &:last-child
-                margin: 0 0 0 2.55px
+                margin: 0 0 0 0.2487804878vw
             a
                 color: transparent
                 &[title="Facebook"]
