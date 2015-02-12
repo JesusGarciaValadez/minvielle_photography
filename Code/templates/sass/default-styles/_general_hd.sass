@@ -1,12 +1,12 @@
 header
     height: 4.6899426785vw !important
     h2
-        transition: all 0.5s ease
+        transition: all 0.5s ease 0.5s
         a
             img
                 max-width: 90%
 nav
-    margin: ( -22.4px / 2 ) 0 0
+    margin: ( -1.1672746222vw / 2 ) 0 0
     position: relative
     top: 50%
     ul
@@ -16,22 +16,24 @@ nav
         top: 50%
         li
             a
-                @include font-mask( normal, em( 18, 16 ) !important, em( 21, 18 ) !important, $font, $text-normal )
+                @include font-mask( normal, 0.9379885357vw !important, 1.0943199583vw !important, $font, $text-normal )
             a[title="Mariano Dominguez Minvielle"]
                 color: $image-border !important
+            ul
+                top: 2.6055237103vw
 main
     .B_crumbBox
         li
             a
                 span
-                    font-size: em( 15, 16 )
+                    font-size: 0.7816571131vw
         span
-            font-size: em( 15, 16 )
+            font-size: 0.7816571131vw
 footer
-    margin: 20px 0 0 -46.875% !important
+    margin: 1.0422094841vw 0 0 -46.875% !important
     position: relative
     p
-        @include font-mask( normal, em( 12, 16 ), em( 30, 12 ), $font, $footer-text )
+        @include font-mask( normal, 0.6253256905vw, 1.5633142262vw, $font, $footer-text )
         margin: 0
 .central
     display: block
@@ -39,10 +41,10 @@ footer
     //max-width: 960px
     width: 93.75%
     .B_crumbBox
-        @include font-mask( normal, em( 16, 16  ), 1.5em, $font, $text-normal )
+        @include font-mask( normal, 0.8337675873vw, 1.5em, $font, $text-normal )
         li
             a
                 span
-                    @include font-mask( normal, em( 14, 16  ), 1.5em, $font, $text-normal )
+                    @include font-mask( normal, 0.7295466389vw, 1.5em, $font, $text-normal )
         .B_currentCrumb
-            @include font-mask( normal, em( 14, 16  ), 1.5em, $font, $text-normal )
+            @include font-mask( normal, 0.7295466389vw, 1.5em, $font, $text-normal )

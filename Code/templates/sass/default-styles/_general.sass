@@ -68,7 +68,7 @@ nav
                     border: 1px solid #e2de37
                     padding: 0.6829268293vw
             a
-                @include font-mask( normal, em( 12, 16 ), em( 15, 12 ), $font, $text-normal )
+                @include font-mask( normal, 1.1707317073vw, 1.4634146341vw, $font, $text-normal )
                 text-align: center
                 text-decoration: none
                 text-transform: uppercase
@@ -106,9 +106,9 @@ nav
                     padding: 0.487804878vw 0 0.487804878vw 1.4634146341vw
                     width: 100%
                     &:nth-child( 3n + 1 )
-                        padding: 0.487804878vw 0 0.487804878vw 1.4634146341vw !important
+                        //padding: 0.487804878vw 0 0.487804878vw 1.4634146341vw !important
                     &:nth-child( 2n )
-                        padding: 0 0 0.487804878vw 1.4634146341vw
+                        //padding: 0 0 0.487804878vw 1.4634146341vw
                     &:last-child
                         border: 0 none transparent
                     &.triangle
@@ -119,7 +119,7 @@ nav
                         position: absolute
                         top: -2.9268292683vw
                         &:before
-                            @include triangle( transparent, solid, 0, transparent, solid, 1.4634146341vw, $submenu-color, solid, 15px, transparent, solid, 15px )
+                            @include triangle( transparent, solid, 0, transparent, solid, 1.4634146341vw, $submenu-color, solid, 1.4634146341vw, transparent, solid, 1.4634146341vw )
                             content: ""
                             display: block
                             height: 0.9756097561vw
