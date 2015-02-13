@@ -75,7 +75,7 @@
 
         // Inicialización de carrusel de imágenes en el Home
         if ( $( '.scrollable_main_photography' ).exists() ) {
-            MDMinvielle.calculateHeightOfMainCarrusel();
+            //MDMinvielle.calculateHeightOfMainCarrusel();
             if ( window.innerWidth <= 580 ) {
                 var thumbnailsHeight    = $( '.items_categories' ).height();
                 $( '.scrollable_categories, .wrapper_categories' ).height( thumbnailsHeight );
@@ -131,7 +131,7 @@
                 e.stopPropagation();
                 e.preventDefault();
 
-                MDMinvielle.calculateHeightOfMainCarrusel();
+                //MDMinvielle.calculateHeightOfMainCarrusel();
 
                 if ( window.innerWidth <= 580 ) {
                     var thumbnailsHeight    = $( '.items_categories' ).height();
