@@ -58,7 +58,7 @@ if ( ! empty( $_GET['action'] ) )
                     $toPass,
                     "email.tpl",
                     "There's a new contact message from MDMinvielle!!!",
-                    "contact@mdminvielle.com, contact@mdminvielle.com", $cc );
+                    "mariano@mdminvielle.com, mariano@mdminvielle.com", $cc );
                 $data       = json_encode ( $doInsert );
 
                 break;
