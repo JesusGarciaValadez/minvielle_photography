@@ -70,12 +70,14 @@
                             padding: 0
                             width: 90%
                             li
-                                @include font-mask( normal, em( 15, 16 ), 1em, $font, $white_color )
+                                @include font-mask( normal, em( 30, 16 ), 1em, $font, $text-active )
                                 list-style: none inside
                                 height: 1em
                                 margin: 10px 0 0
                                 padding: 0 0 10px
                                 width: 100%
+                                a
+                                    @include font-mask( normal, em( 30, 30 ), 1em, $font, $text-active )
                                 &:nth-child( n ):nth-child( -1n + 2 )
                                     text-indent: 20px
                                 &.phone_frameless
