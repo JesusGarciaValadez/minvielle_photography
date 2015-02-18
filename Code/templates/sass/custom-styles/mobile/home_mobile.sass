@@ -3,27 +3,28 @@
         section.central
             .scrollable_main_photography
                 //max-height: 141px
-                margin: 0 auto 35px
+                margin: 0 auto 10.9375vw
                 .items_glympse
                     figure
                         float: left
                         position: relative
-                        width: 305px
+                        width: 95.3125vw !important
                         img
                             box-sizing: border-box
                             height: 100%
                             width: 99%
                 .watermark
                     bottom: auto
-                    top: 3px
+                    top: 0.9375vw
                 .navigation
-                    bottom: 3px
-                    margin: 0 0 0 ( -36px / 2 )
+                    bottom: 0.9375vw
+                    margin: 0 0 0 ( -11.25vw / 2 )
                     a
                         height: 8px
-                        margin: 0 3px 0 0
+                        margin: 0 0.9375vw 0 0
                         width: 8px
             .wrapper_categories
+                height: auto
                 width: 100% !important
                 a
                 .browser
@@ -32,6 +33,7 @@
                 .next
                 .disabled
                 .scrollable_categories
+                    height: auto
                     margin: 0 0 0 -50%
                     width: 100%
                     .items_categories
@@ -39,7 +41,8 @@
                         width: 100%
                         figure
                             //height: 78px
-                            height: auto
+                            height: 29.0625vw
+                            overflow: hidden
                             width: 46% !important
                             &:first-child
                                 margin: 0
@@ -65,4 +68,3 @@
                                 left: 0
                                 p
                                     @include font-mask( normal, em( 10, 16 ), em( 24, 10 ), $font, $white-color )
-                
