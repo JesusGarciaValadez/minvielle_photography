@@ -45,10 +45,10 @@ if ( ! empty( $_GET['action'] ) )
                         array(
                             'mail'  => 'jesus.garciav@me.com',
                             'name'  => 'Jesús'),
-                        /*array(
+                        array(
                             'mail'  => 'vicobain@gmail.com',
                             'name'  => 'Vico'),
-                        array(
+                        /*array(
                             'mail'  => 'mramirez@cmvasfalto.com.mx',
                             'name'  => 'Mariel')*/
                     );
@@ -57,8 +57,8 @@ if ( ! empty( $_GET['action'] ) )
                 $doInsert   = $doInsert->insertInit(
                     $toPass,
                     "email.tpl",
-                    "There's a new contact message from MD MINVIELLE!!!",
-                    "contact@mdminvielle.com, contact@mdminvielle.com", $cc );
+                    "There's a new contact message from MDMinvielle!!!",
+                    "mariano@mdminvielle.com, mariano@mdminvielle.com", $cc );
                 $data       = json_encode ( $doInsert );
 
                 break;
@@ -71,10 +71,10 @@ if ( ! empty( $_GET['action'] ) )
                         array(
                             'mail'  => 'jesus.garciav@me.com',
                             'name'  => 'Jesús'),
-                        /*array(
+                        array(
                             'mail'  => 'vicobain@gmail.com',
                             'name'  => 'Vico'),
-                        array(
+                        /*array(
                             'mail'  => 'mramirez@cmvasfalto.com.mx',
                             'name'  => 'Mariel')*/
                     );
@@ -83,7 +83,7 @@ if ( ! empty( $_GET['action'] ) )
                 $doInsert   = $doInsert->insertSuscribe(
                     $toPass,
                     "suscribe.tpl",
-                    "There's a new suscribe from MD MINVIELLE!!!",
+                    "There's a new suscribe from MDMinvielle!!!",
                     "mariano@mdminvielle.com, mariano@mdminvielle.com", $cc );
                 $data       = json_encode ( $doInsert );
 
