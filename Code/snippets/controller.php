@@ -45,10 +45,10 @@ if ( ! empty( $_GET['action'] ) )
                         array(
                             'mail'  => 'jesus.garciav@me.com',
                             'name'  => 'Jesús'),
-                        array(
+                        /*array(
                             'mail'  => 'vicobain@gmail.com',
                             'name'  => 'Vico'),
-                        /*array(
+                        array(
                             'mail'  => 'mramirez@cmvasfalto.com.mx',
                             'name'  => 'Mariel')*/
                     );
@@ -57,7 +57,7 @@ if ( ! empty( $_GET['action'] ) )
                 $doInsert   = $doInsert->insertInit(
                     $toPass,
                     "email.tpl",
-                    "There's a new contact message from MDMinvielle!!!",
+                    "There's a new contact message from MD MINVIELLE!!!",
                     "mariano@mdminvielle.com, mariano@mdminvielle.com", $cc );
                 $data       = json_encode ( $doInsert );
 
@@ -71,10 +71,10 @@ if ( ! empty( $_GET['action'] ) )
                         array(
                             'mail'  => 'jesus.garciav@me.com',
                             'name'  => 'Jesús'),
-                        array(
+                        /*array(
                             'mail'  => 'vicobain@gmail.com',
                             'name'  => 'Vico'),
-                        /*array(
+                        array(
                             'mail'  => 'mramirez@cmvasfalto.com.mx',
                             'name'  => 'Mariel')*/
                     );
@@ -83,7 +83,7 @@ if ( ! empty( $_GET['action'] ) )
                 $doInsert   = $doInsert->insertSuscribe(
                     $toPass,
                     "suscribe.tpl",
-                    "There's a new suscribe from MDMinvielle!!!",
+                    "There's a new suscribe from MD MINVIELLE!!!",
                     "mariano@mdminvielle.com, mariano@mdminvielle.com", $cc );
                 $data       = json_encode ( $doInsert );
 
