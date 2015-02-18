@@ -349,7 +349,7 @@
 
                             $( 'form' ).fadeOut( 300, function () {
 
-                                var _finished   = '<p class="thanks">Thank you for suscribe.</p>';
+                                var _finished   = '<p class="thanks">Thank you for suscribing.</p>';
 
                                 $( 'form fieldset' ).first()
                                                     .empty()
