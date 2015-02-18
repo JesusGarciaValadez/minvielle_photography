@@ -63,7 +63,7 @@
             } );
 
             function resizeMobileMenu () {
-                var _height = $( 'body >div.wrapper' ).height();
+                var _height = $( 'nav.mobile p' ).height() + $( 'nav.mobile ul' ).height();
                 $( 'body >div.wrapper nav.mobile' ).height( _height );
             }
             resizeMobileMenu();
